@@ -1,5 +1,5 @@
 "use client";
-import {useMemo, useState} from "react";
+import {useMemo, useState, useEffect} from "react";
 
 const money=n=>new Intl.NumberFormat("vi-VN").format(Math.round(n))+"đ";
 const rowStyle={display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"space-between",gap:12,padding:"10px 0",borderBottom:"1px solid #f1e5d4"};
