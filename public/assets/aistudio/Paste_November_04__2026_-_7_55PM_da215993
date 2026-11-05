@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>WayEcho Phố Cổ Hà Nội</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"tertiary":"#00685f","high-contrast-black":"#020617","primary-fixed":"#ffdcc3","on-surface-variant":"#554336","surface-tint":"#904d00","on-tertiary-container":"#f4fffc","primary":"#8d4b00","error-container":"#ffdad6","on-tertiary-fixed-variant":"#005049","on-primary-container":"#fffbff","inverse-primary":"#ffb77d","surface-container-highest":"#e0e3e5","on-primary-fixed":"#2f1500","on-tertiary-fixed":"#00201d","primary-container":"#b15f00","on-primary":"#ffffff","surface-container-low":"#f2f4f6","surface":"#f7f9fb","surface-container":"#eceef0","secondary-container":"#dae2fd","on-secondary-fixed":"#131b2e","warm-sand":"#FFFAF2","on-error-container":"#93000a","primary-fixed-dim":"#ffb77d","accessible-emerald":"#0D9488","surface-container-high":"#e6e8ea","tertiary-fixed-dim":"#6bd8cb","amber-vibrant":"#F59E0B","outline":"#887364","tertiary-fixed":"#89f5e7","secondary-fixed-dim":"#bec6e0","background":"#f7f9fb","on-secondary":"#ffffff","surface-bright":"#f7f9fb","on-secondary-fixed-variant":"#3f465c","tertiary-container":"#008378","surface-pure":"#FFFFFF","on-error":"#ffffff","error":"#ba1a1a","on-surface":"#191c1e","outline-variant":"#dbc2b0","secondary-fixed":"#dae2fd","inverse-on-surface":"#eff1f3","on-primary-fixed-variant":"#6e3900","surface-variant":"#e0e3e5","on-background":"#191c1e","on-tertiary":"#ffffff","surface-dim":"#d8dadc","on-secondary-container":"#5c647a","slate-surface":"#1E293B","surface-container-lowest":"#ffffff","secondary":"#565e74","focus-gold":"#F59E0B","inverse-surface":"#2d3133"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-xs":"0.25rem","space-xl":"2.5rem","space-lg":"1.5rem","gutter":"1.5rem","gutter-mobile":"1rem","space-sm":"0.5rem","margin-mobile":"1rem","space-md":"1rem","margin":"2rem"},fontFamily:{"label-md":["Inter"],"headline-lg-mobile":["Be Vietnam Pro"],"headline-sm":["Be Vietnam Pro"],"headline-xl":["Be Vietnam Pro"],"headline-xl-mobile":["Be Vietnam Pro"],"headline-lg":["Be Vietnam Pro"],"label-lg":["Inter"],"body-md":["Inter"],"label-sm":["Inter"],"body-lg":["Inter"],"body-sm":["Inter"],"headline-md":["Be Vietnam Pro"]},fontSize:{"label-md":["0.875rem",{"lineHeight":"1.25rem","letterSpacing":"0.02em","fontWeight":"600"}],"headline-lg-mobile":["1.75rem",{"lineHeight":"2.25rem","letterSpacing":"0","fontWeight":"700"}],"headline-sm":["1.25rem",{"lineHeight":"1.75rem","letterSpacing":"0","fontWeight":"600"}],"headline-xl":["3rem",{"lineHeight":"3.5rem","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl-mobile":["2rem",{"lineHeight":"2.5rem","letterSpacing":"-0.01em","fontWeight":"700"}],"headline-lg":["2.25rem",{"lineHeight":"2.75rem","letterSpacing":"-0.01em","fontWeight":"700"}],"label-lg":["1rem",{"lineHeight":"1.5rem","letterSpacing":"0.02em","fontWeight":"600"}],"body-md":["1rem",{"lineHeight":"1.625rem","letterSpacing":"0.01em","fontWeight":"400"}],"label-sm":["0.75rem",{"lineHeight":"1rem","letterSpacing":"0.04em","fontWeight":"700"}],"body-lg":["1.125rem",{"lineHeight":"1.875rem","letterSpacing":"0.01em","fontWeight":"400"}],"body-sm":["0.875rem",{"lineHeight":"1.375rem","letterSpacing":"0.015em","fontWeight":"400"}],"headline-md":["1.5rem",{"lineHeight":"2rem","letterSpacing":"0","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-warm-sand/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-slate-surface text-surface-pure py-1.5 px-gutter"><div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-3 text-label-sm"><div class="flex items-center gap-3"><span class="inline-flex items-center gap-1 text-focus-gold"><span class="material-symbols-outlined text-[16px]">accessibility_new</span><span>WCAG 2.2 AAA Chuẩn</span></span><span class="hidden sm:inline-block text-secondary-fixed-dim">•</span><span class="inline-flex items-center gap-1 text-accessible-emerald"><span class="material-symbols-outlined text-[16px]">headphones</span><span>Binaural 3D Sẵn sàng</span></span></div><div class="flex items-center gap-3"><button aria-label="Bật chế độ tương phản cao" class="inline-flex items-center gap-1 hover:text-focus-gold transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">contrast</span><span>Độ tương phản cao</span></button><div class="flex items-center gap-1 bg-high-contrast-black/40 px-2 py-0.5 rounded"><button aria-label="Giảm cỡ chữ" class="hover:text-focus-gold px-1 font-bold" type="button">A-</button><span class="text-secondary-fixed-dim">|</span><button aria-label="Tăng cỡ chữ" class="hover:text-focus-gold px-1 font-bold" type="button">A+</button></div><button aria-label="Kích hoạt thuyết minh giọng nói đọc màn hình" class="inline-flex items-center gap-1 bg-primary px-2.5 py-0.5 rounded text-on-primary hover:bg-primary-container transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">volume_up</span><span>Thuyết minh TTS</span></button></div></div></div><div class="h-20 max-w-7xl mx-auto px-gutter flex items-center justify-between gap-4"><a class="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-focus-gold rounded-lg p-1" data-path="trang-chu" href="#"><div class="w-10 h-10 rounded-xl bg-primary flex items-center justify-center text-on-primary shadow-sm group-hover:bg-primary-container transition-colors"><span class="material-symbols-outlined text-[24px]">graphic_eq</span></div><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary leading-tight font-bold tracking-tight">WayEcho</span><span class="text-label-sm font-label-sm text-on-surface-variant tracking-wider uppercase text-[10px]">Hear Your Way • Phố Cổ</span></div></a><nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-primary-container text-on-primary-container font-bold rounded-lg shadow-sm"><a class="px-3.5 py-2 text-label-md font-label-md text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="diem-den" href="#">Điểm đến</a><a class="px-3.5 py-2 text-label-md font-label-md text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="dich-vu-va-huong-dan-vien" href="#">Dịch vụ &amp; Hướng dẫn viên</a><a class="px-3.5 py-2 text-label-md font-label-md text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="blog-va-trai-nghiem" href="#">Blog &amp; Trải nghiệm</a><a class="px-3.5 py-2 text-label-md font-label-md text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="ban-do-am-thanh" href="#">Bản đồ âm thanh</a><a class="px-3.5 py-2 text-label-md font-label-md text-on-surface-variant hover:text-on-surface rounded-lg transition-colors" data-path="tro-ly-camera-ai" href="#">Trợ lý Camera AI</a><a aria-current="page" class="px-3.5 py-2 transition-colors flex items-center gap-1.5 bg-primary-container text-on-primary-container font-bold rounded-lg shadow-sm" data-path="quan-tri-admin" href="#"><span>Quản trị Admin</span><span class="inline-block w-2 h-2 rounded-full bg-accessible-emerald"></span></a></nav><div class="flex items-center gap-3"><a aria-label="Khẩn cấp SOS 24/7 gọi 1900 8282" class="inline-flex items-center gap-2 bg-error text-on-error font-label-md text-label-md px-4 py-2.5 rounded-lg shadow-sm hover:bg-on-error-container hover:text-on-primary transition-all focus:outline-none focus:ring-2 focus:ring-focus-gold" href="tel:19008282"><span class="material-symbols-outlined text-[20px] animate-pulse">fmd_bad</span><span class="font-bold">SOS 24/7</span></a><div class="hidden sm:flex items-center gap-2.5 pl-2 border-l border-outline-variant/50"><div class="flex flex-col text-right"><span class="text-label-sm font-label-sm text-on-surface font-semibold">Hành trình của tôi</span><span class="text-[11px] text-tertiary font-medium">Cổng thành viên</span></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- System Operational Ribbon -->
+<section class="w-full bg-surface-container-low px-gutter py-4">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
+<div class="space-y-1.5">
+<nav aria-label="Đường dẫn hệ thống" class="flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="hover:text-primary cursor-pointer transition-colors">Trang chủ</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="hover:text-primary cursor-pointer transition-colors">Quản trị hệ thống tiếp cận</span>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-bold">Hoàn Kiếm Accessibility Hub</span>
+</nav>
+<div class="flex flex-wrap items-center gap-3">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-surface text-surface-pure text-label-sm font-label-sm shadow-sm">
+<span class="material-symbols-outlined text-amber-vibrant text-[16px]">admin_panel_settings</span>
+<span>Điều phối viên Nguyễn Quốc Tuấn</span>
+<span class="text-secondary-fixed-dim">#ADMIN-HK-01</span>
+</span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-accessible-emerald/15 text-tertiary text-label-sm font-label-sm">
+<span class="w-2 h-2 rounded-full bg-accessible-emerald animate-ping"></span>
+<span class="font-bold">GeoSPARQL Live</span>
+<span class="text-on-surface-variant font-normal">| 14ms Latency</span>
+</span>
+</div>
+</div>
+<!-- Controls & Quick Actions -->
+<div class="flex flex-wrap items-center gap-2.5">
+<div class="inline-flex rounded-xl bg-surface-pure p-1 shadow-sm">
+<button class="px-3.5 py-1.5 rounded-lg text-label-sm font-label-sm bg-primary text-on-primary font-bold transition-all shadow-sm" type="button">Hôm nay</button>
+<button class="px-3.5 py-1.5 rounded-lg text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" type="button">7 ngày qua</button>
+<button class="px-3.5 py-1.5 rounded-lg text-label-sm font-label-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" type="button">Tháng này</button>
+</div>
+<button class="inline-flex items-center gap-2 h-11 px-4 rounded-xl bg-surface-pure text-on-surface hover:bg-surface-container-high transition-all shadow-sm text-label-md font-label-md" id="btn-export" type="button">
+<span class="material-symbols-outlined text-tertiary text-[20px]">download</span>
+<span>Xuất Báo Cáo</span>
+</button>
+<button class="inline-flex items-center gap-2 h-11 px-4 rounded-xl bg-amber-vibrant text-high-contrast-black hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm text-label-md font-label-md" id="btn-sync" type="button">
+<span class="material-symbols-outlined text-[20px] transition-transform duration-700" id="sync-icon">sync</span>
+<span>Đồng bộ 15s</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 4 Vital KPI Metrics Grid -->
+<section class="w-full px-gutter py-6">
+<div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5">
+<!-- KPI Card 1: SOS Incidents -->
+<article class="bg-surface-pure rounded-2xl p-5 shadow-sm relative overflow-hidden transition-all hover:shadow-md">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-error"></div>
+<div class="flex items-center justify-between">
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-error font-bold flex items-center gap-1.5">
+<span class="w-2.5 h-2.5 rounded-full bg-error animate-pulse"></span>
+            Sự Cố Thực Địa
+          </span>
+<span class="w-10 h-10 rounded-xl bg-error-container text-error flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">e911_emergency</span>
+</span>
+</div>
+<div class="mt-4 flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-high-contrast-black font-bold">01</span>
+<span class="text-label-sm font-label-sm text-error bg-error-container/60 px-2 py-0.5 rounded-md font-bold">Đang xử lý khẩn cấp</span>
+</div>
+<div class="mt-3 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant pt-3 bg-surface-container-low/50 -mx-5 -mb-5 px-5 py-3">
+<span>TB phản ứng: <strong class="text-on-surface font-semibold">1m 42s</strong></span>
+<span class="text-accessible-emerald font-semibold">24 ca xử lý/tháng</span>
+</div>
+</article>
+<!-- KPI Card 2: Sighted Guides -->
+<article class="bg-surface-pure rounded-2xl p-5 shadow-sm relative overflow-hidden transition-all hover:shadow-md">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-primary"></div>
+<div class="flex items-center justify-between">
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-primary font-bold">Lực Lượng Guide &amp; TNV</span>
+<span class="w-10 h-10 rounded-xl bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">assistant_navigation</span>
+</span>
+</div>
+<div class="mt-4 flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-high-contrast-black font-bold">38<span class="text-headline-md font-headline-md text-on-surface-variant font-normal">/45</span></span>
+<span class="text-label-sm font-label-sm text-tertiary bg-tertiary-fixed/30 px-2 py-0.5 rounded-md font-bold">84.4% Sẵn sàng</span>
+</div>
+<div class="mt-3 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant pt-3 bg-surface-container-low/50 -mx-5 -mb-5 px-5 py-3">
+<span>18 chuyến song hành trực tiếp</span>
+<span class="inline-flex items-center gap-1 text-primary font-semibold">36 Phố Phường</span>
+</div>
+</article>
+<!-- KPI Card 3: Audited Cultural Venues -->
+<article class="bg-surface-pure rounded-2xl p-5 shadow-sm relative overflow-hidden transition-all hover:shadow-md">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-accessible-emerald"></div>
+<div class="flex items-center justify-between">
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-tertiary font-bold">Di Tích Đã Kiểm Định</span>
+<span class="w-10 h-10 rounded-xl bg-secondary-container text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+</span>
+</div>
+<div class="mt-4 flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-high-contrast-black font-bold">42</span>
+<span class="text-label-sm font-label-sm text-accessible-emerald bg-accessible-emerald/10 px-2 py-0.5 rounded-md font-bold">28 AAA Tiếp Cận</span>
+</div>
+<div class="mt-3 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant pt-3 bg-surface-container-low/50 -mx-5 -mb-5 px-5 py-3">
+<span>11 Cần hỗ trợ phụ trợ</span>
+<span class="text-amber-vibrant font-semibold">3 Điểm chờ duyệt</span>
+</div>
+</article>
+<!-- KPI Card 4: Active Visually Impaired Visitors -->
+<article class="bg-surface-pure rounded-2xl p-5 shadow-sm relative overflow-hidden transition-all hover:shadow-md">
+<div class="absolute top-0 left-0 right-0 h-1.5 bg-slate-surface"></div>
+<div class="flex items-center justify-between">
+<span class="text-label-sm font-label-sm uppercase tracking-wider text-slate-surface font-bold">Du Khách Đang Kết Nối</span>
+<span class="w-10 h-10 rounded-xl bg-slate-surface text-surface-pure flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">hearing</span>
+</span>
+</div>
+<div class="mt-4 flex items-baseline gap-2">
+<span class="font-headline-xl text-headline-xl text-high-contrast-black font-bold">156</span>
+<span class="text-label-sm font-label-sm text-slate-surface bg-surface-container-high px-2 py-0.5 rounded-md font-bold">Realtime BLE</span>
+</div>
+<div class="mt-3 flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant pt-3 bg-surface-container-low/50 -mx-5 -mb-5 px-5 py-3">
+<span>82 Khiếm thị • 54 Low-vision</span>
+<span class="text-on-surface font-semibold">20 Bạn đồng hành</span>
+</div>
+</article>
+</div>
+</section>
+<!-- Main Administrative Operations Body (68% / 32% Layout) -->
+<section class="w-full px-gutter pb-16">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- LEFT COLUMN (68% - 8 Columns): Real-time Field Coordination & Telemetry -->
+<div class="lg:col-span-8 space-y-8">
+<!-- Live Incident Dispatcher Section -->
+<section aria-labelledby="live-sos-heading" class="bg-surface-pure rounded-2xl p-6 shadow-sm space-y-5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="w-3.5 h-3.5 rounded-full bg-error animate-ping"></span>
+<h2 class="font-headline-md text-headline-md text-high-contrast-black font-bold" id="live-sos-heading">
+                Giám Sát Khẩn Cấp &amp; Điều Phối SOS Thực Địa
+              </h2>
+</div>
+<span class="px-3 py-1 rounded-full bg-error-container text-error text-label-sm font-label-sm font-bold">
+              1 Ca Ưu Tiên Cao Độ
+            </span>
+</div>
+<!-- Active Critical Incident Card -->
+<div class="p-5 rounded-2xl bg-warm-sand shadow-sm space-y-4">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+<div class="flex items-center gap-2.5">
+<span class="px-2.5 py-1 rounded-lg bg-error text-on-error text-label-sm font-label-sm font-bold tracking-wide">
+                  CẤP ĐỘ 1 - KHẨN CẤP
+                </span>
+<span class="text-body-sm font-body-sm text-on-surface-variant">Phát tín hiệu: <strong class="text-on-surface font-semibold">14:28:10 (2 phút trước)</strong></span>
+</div>
+<span class="text-label-sm font-label-sm text-tertiary flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">location_on</span> Ngã tư Hàng Chiếu - Thanh Hà
+              </span>
+</div>
+<div class="flex flex-col md:flex-row items-start gap-4">
+<div class="w-12 h-12 rounded-2xl bg-error/15 text-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[28px]">notification_important</span>
+</div>
+<div class="space-y-1.5 flex-1">
+<p class="font-headline-sm text-headline-sm text-high-contrast-black font-bold">
+                  Du khách Trần Minh Đức <span class="text-label-md font-label-md text-on-surface-variant font-normal">(#WE-HN-8924 • Khiếm thị hoàn toàn)</span>
+</p>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed">
+                  Tín hiệu SOS từ gậy thông minh: Va chạm xe lôi cơ giới nhẹ trên vỉa hè tạm, ngã trượt chân, cần kiểm tra y tế cơ bản và hỗ trợ định hướng lại hành trình về Ô Quan Chưởng.
+                </p>
+</div>
+</div>
+<!-- Dispatch Response Status -->
+<div class="p-3.5 rounded-xl bg-surface-pure flex flex-col md:flex-row md:items-center justify-between gap-3">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-accessible-emerald text-on-primary flex items-center justify-center font-bold text-label-sm">
+                  MH
+                </div>
+<div>
+<p class="text-label-sm font-label-sm text-high-contrast-black font-bold">Guide Pro Nguyễn Minh Hoàng đang tiếp cận</p>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Khoảng cách: 60 mét • Dự kiến có mặt trong 45 giây</p>
+</div>
+</div>
+<div class="flex flex-wrap items-center gap-2">
+<button class="h-10 px-3.5 rounded-xl bg-slate-surface text-surface-pure hover:bg-high-contrast-black transition-colors text-label-sm font-label-sm inline-flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">cell_tower</span>
+<span>Bộ Đàm Kênh 2</span>
+</button>
+<button class="h-10 px-3.5 rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-colors text-label-sm font-label-sm inline-flex items-center gap-1.5 font-bold" type="button">
+<span class="material-symbols-outlined text-[18px]">radar</span>
+<span>Mở Live Radar</span>
+</button>
+<button class="h-10 px-3.5 rounded-xl bg-error text-on-error hover:bg-on-error-container transition-colors text-label-sm font-label-sm inline-flex items-center gap-1.5 font-bold" type="button">
+<span class="material-symbols-outlined text-[18px]">medical_services</span>
+<span>Chuyển 115</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Secondary Incident (Navigation Assist) -->
+<div class="p-4 rounded-xl bg-surface-container-low flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+<div class="flex items-center gap-3.5">
+<span class="w-10 h-10 rounded-xl bg-amber-vibrant/20 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">explore_off</span>
+</span>
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-amber-vibrant/20 text-primary text-[11px] font-bold">CẢNH BÁO LỆCH HƯỚNG</span>
+<span class="text-body-sm font-body-sm text-on-surface font-semibold">Sarah Jenkins (Low Vision • #WE-UK-301)</span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant mt-0.5">
+                  Lệch khỏi luồng gạch dẫn hướng tại Ngõ Mã Mây. Đã phát Beacon binaural 3D xung nhịp định vị tự động.
+                </p>
+</div>
+</div>
+<button class="h-9 px-3.5 rounded-lg bg-surface-pure hover:bg-surface-container text-on-surface transition-colors text-label-sm font-label-sm shrink-0" type="button">
+              Kiểm Tra Tín Hiệu Beacon
+            </button>
+</div>
+</section>
+<!-- Interactive Radar & Spatial GeoSPARQL Map Section -->
+<section aria-labelledby="radar-map-heading" class="bg-surface-pure rounded-2xl p-6 shadow-sm space-y-4">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div>
+<h2 class="font-headline-md text-headline-md text-high-contrast-black font-bold" id="radar-map-heading">
+                Bản Đồ Radar Tiếp Cận Lõi 36 Phố Phường
+              </h2>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Giám sát chướng ngại vật thời gian thực, chốt cơ động và hành lang xúc giác</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-surface-container text-label-sm font-label-sm text-on-surface">
+<span class="w-2 h-2 rounded-full bg-accessible-emerald"></span> 4 Chốt Sẵn Sàng
+              </span>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-error-container/60 text-label-sm font-label-sm text-error">
+<span class="w-2 h-2 rounded-full bg-error"></span> 2 Điểm Thi Công
+              </span>
+</div>
+</div>
+<!-- Layer Switches -->
+<div class="flex flex-wrap items-center gap-2 py-1">
+<button class="h-9 px-3 rounded-lg bg-primary text-on-primary text-label-sm font-label-sm flex items-center gap-1.5 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[16px]">spatial_audio</span>
+<span>Lớp Beacon 3D (64 điểm)</span>
+</button>
+<button class="h-9 px-3 rounded-lg bg-surface-container-high hover:bg-secondary-container text-on-surface text-label-sm font-label-sm flex items-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">nordic_walking</span>
+<span>Hành Lang Không Vật Cản</span>
+</button>
+<button class="h-9 px-3 rounded-lg bg-surface-container-high hover:bg-secondary-container text-on-surface text-label-sm font-label-sm flex items-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">electric_car</span>
+<span>Xe Điện Chuyên Dụng</span>
+</button>
+<button class="h-9 px-3 rounded-lg bg-surface-container-high hover:bg-secondary-container text-on-surface text-label-sm font-label-sm flex items-center gap-1.5 transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">construction</span>
+<span>Vật Cản Tạm Thời</span>
+</button>
+</div>
+<!-- Radar Canvas Container -->
+<div class="relative w-full h-[420px] rounded-2xl overflow-hidden shadow-inner bg-slate-surface" data-location="Old Quarter, Hoan Kiem, Hanoi" style="">
+<!-- Simulated GIS Vector Grid and Interactive Overlays -->
+<div class="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity" data-alt="Bản đồ không gian phố cổ Hà Nội hiển thị các tuyến phố Hàng Gai Hàng Bạc Mã Mây Ô Quan Chưởng với các điểm dữ liệu GIS định vị GPS và luồng âm thanh dẫn đường cho người khiếm thị" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDRKbFS0FZ1tV-K-OCUDYl4oU6KORxCwO2Y3g1TWLeiwADW-Rbn9lwFrH8kNfZgCWug0VtOjo09fmsTHPx8szLAWwKMYxWM0_jlkwwodG26tUaH-qRcHqMf9fRu-PWLbKP0vcLxu-uz7BragIyZOkVdvPq2NPPIjKRf4lkN-cAVbh9Asu-7_3xDVKhIzFvExUDvhLjfM4bt4xWShO0xwMMhPADymzpIRejub1Ker6bx')"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-high-contrast-black via-high-contrast-black/40 to-transparent"></div>
+<!-- Live Status Markers Simulation -->
+<!-- Marker 1: Chốt Ô Quan Chưởng -->
+<div class="absolute top-12 left-16 group cursor-pointer">
+<div class="flex items-center gap-2 bg-high-contrast-black/90 text-surface-pure backdrop-blur-md px-3 py-1.5 rounded-xl shadow-lg border-l-4 border-l-accessible-emerald transition-transform hover:scale-105">
+<span class="w-2.5 h-2.5 rounded-full bg-accessible-emerald animate-ping"></span>
+<div class="flex flex-col">
+<span class="text-label-sm font-label-sm font-bold">Chốt Cứu Hộ Ô Quan Chưởng</span>
+<span class="text-[10px] text-tertiary-fixed">2 Guide trực • 1 Xe lăn điện</span>
+</div>
+</div>
+</div>
+<!-- Marker 2: Vị trí SOS Cấp độ 1 -->
+<div class="absolute top-36 left-1/3 group cursor-pointer animate-bounce">
+<div class="flex items-center gap-2 bg-error text-on-error px-3.5 py-1.5 rounded-xl shadow-xl transition-all">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+<div class="flex flex-col">
+<span class="text-label-sm font-label-sm font-bold">SOS #8924: Hàng Chiếu</span>
+<span class="text-[10px] text-white">Guide Hoàng đang đến (Cách 60m)</span>
+</div>
+</div>
+</div>
+<!-- Marker 3: Chốt Chợ Đồng Xuân -->
+<div class="absolute top-20 right-1/4 group cursor-pointer">
+<div class="flex items-center gap-2 bg-high-contrast-black/90 text-surface-pure backdrop-blur-md px-3 py-1.5 rounded-xl shadow-lg border-l-4 border-l-focus-gold transition-transform hover:scale-105">
+<span class="material-symbols-outlined text-focus-gold text-[16px]">health_and_safety</span>
+<div class="flex flex-col">
+<span class="text-label-sm font-label-sm font-bold">Chốt Chợ Đồng Xuân</span>
+<span class="text-[10px] text-secondary-fixed-dim">3 TNV sẵn sàng</span>
+</div>
+</div>
+</div>
+<!-- Marker 4: Cảnh báo đào đường Hàng Bạc -->
+<div class="absolute bottom-16 right-16 group cursor-pointer">
+<div class="flex items-center gap-2 bg-high-contrast-black/95 text-surface-pure backdrop-blur-md px-3 py-1.5 rounded-xl shadow-lg border-l-4 border-l-amber-vibrant transition-transform hover:scale-105">
+<span class="material-symbols-outlined text-amber-vibrant text-[18px]">report_problem</span>
+<div class="flex flex-col">
+<span class="text-label-sm font-label-sm font-bold">Thi công vỉa hè Hàng Bạc</span>
+<span class="text-[10px] text-amber-vibrant">Chuyển luồng sang phố Hàng Bè</span>
+</div>
+</div>
+</div>
+<!-- Floating Map Legend -->
+<div class="absolute bottom-4 left-4 bg-high-contrast-black/85 backdrop-blur-md text-surface-pure p-3 rounded-xl text-label-sm font-label-sm space-y-1.5 max-w-xs shadow-md">
+<div class="text-[11px] uppercase tracking-wider text-secondary-fixed-dim font-bold">Trực quan hóa Thực địa</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-accessible-emerald inline-block"></span>
+<span>Chốt cứu hộ cơ động sẵn sàng</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary inline-block"></span>
+<span>Guide đang hỗ trợ du khách</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-error inline-block"></span>
+<span>Sự cố đang được giải quyết</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Cultural Heritage Accessibility Audit Management Table -->
+<section aria-labelledby="heritage-audit-heading" class="bg-surface-pure rounded-2xl p-6 shadow-sm space-y-5">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+<div>
+<h2 class="font-headline-md text-headline-md text-high-contrast-black font-bold" id="heritage-audit-heading">
+                Kiểm Định Trợ Năng Di Tích &amp; Điểm Đến Phố Cổ
+              </h2>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Dữ liệu chuẩn hóa theo WCAG 2.2 AAA &amp; QCVN 10:2014/BXD</p>
+</div>
+<button class="h-10 px-4 rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-all text-label-sm font-label-sm font-bold inline-flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">add_location_alt</span>
+<span>Thêm Điểm Khảo Sát</span>
+</button>
+</div>
+<!-- High-Contrast Table Container -->
+<div class="overflow-x-auto rounded-xl bg-surface-container-low">
+<table class="w-full text-left border-collapse">
+<thead>
+<tr class="bg-surface-container-high text-high-contrast-black text-label-sm font-label-sm">
+<th class="py-3.5 px-4 font-bold" scope="col">Tên Di Tích / Địa Điểm</th>
+<th class="py-3.5 px-4 font-bold" scope="col">Trạng Thái Tiếp Cận</th>
+<th class="py-3.5 px-4 font-bold" scope="col">Âm Thanh 3D</th>
+<th class="py-3.5 px-4 font-bold" scope="col">Thẩm Định Viên</th>
+<th class="py-3.5 px-4 font-bold text-right" scope="col">Thao Tác</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container text-body-sm font-body-sm">
+<!-- Row 1 -->
+<tr class="hover:bg-surface-pure transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-high-contrast-black">Nhà Cổ 87 Mã Mây</div>
+<div class="text-[12px] text-on-surface-variant">Phường Hàng Buồm • Xây dựng cuối thế kỷ 19</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-accessible-emerald/15 text-tertiary text-label-sm font-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Đạt Chuẩn WCAG 2.2 AAA
+                    </span>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 text-primary font-semibold text-label-sm">
+<span class="material-symbols-outlined text-[16px]">headphones</span> 8 Bản ghi vòm
+                    </span>
+</td>
+<td class="py-4 px-4">
+<div class="text-on-surface font-medium">Hội Người Mù TP Hà Nội</div>
+<div class="text-[11px] text-on-surface-variant">22/10/2024</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Chỉnh sửa dữ liệu" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-tertiary transition-colors" title="Bản đồ xúc giác" type="button">
+<span class="material-symbols-outlined text-[18px]">touch_app</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 2 -->
+<tr class="hover:bg-surface-pure transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-high-contrast-black">Cửa Ô Quan Chưởng</div>
+<div class="text-[12px] text-on-surface-variant">Phố Thanh Hà • Cổng thành cổ duy nhất còn lại</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-accessible-emerald/15 text-tertiary text-label-sm font-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Hoàn Toàn Tiếp Cận
+                    </span>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 text-primary font-semibold text-label-sm">
+<span class="material-symbols-outlined text-[16px]">headphones</span> 6 Bản ghi vòm
+                    </span>
+</td>
+<td class="py-4 px-4">
+<div class="text-on-surface font-medium">Viện Kiến Trúc Di Sản</div>
+<div class="text-[11px] text-on-surface-variant">18/11/2024</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Chỉnh sửa dữ liệu" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-tertiary transition-colors" title="Bản đồ xúc giác" type="button">
+<span class="material-symbols-outlined text-[18px]">touch_app</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 3 -->
+<tr class="hover:bg-surface-pure transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-high-contrast-black">Đền Bạch Mã (Trấn Đông)</div>
+<div class="text-[12px] text-on-surface-variant">76 Hàng Buồm • Tứ trấn Thăng Long</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-amber-vibrant/20 text-primary text-label-sm font-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">stairs</span> Bậc Ngưỡng Cửa (Cần Ram Dốc)
+                    </span>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 text-primary font-semibold text-label-sm">
+<span class="material-symbols-outlined text-[16px]">headphones</span> 12 Bản ghi vòm
+                    </span>
+</td>
+<td class="py-4 px-4">
+<div class="text-on-surface font-medium">KTS. Trần Đăng Khoa</div>
+<div class="text-[11px] text-on-surface-variant">05/12/2024</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Chỉnh sửa dữ liệu" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-tertiary transition-colors" title="Bản đồ xúc giác" type="button">
+<span class="material-symbols-outlined text-[18px]">touch_app</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 4 -->
+<tr class="hover:bg-surface-pure transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-high-contrast-black">Chợ Đồng Xuân</div>
+<div class="text-[12px] text-on-surface-variant">Phố Đồng Xuân • Chợ đầu mối trung tâm</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-secondary text-label-sm font-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">elevator</span> Chỉ Tiếp Cận Tầng 1
+                    </span>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 text-primary font-semibold text-label-sm">
+<span class="material-symbols-outlined text-[16px]">headphones</span> 15 Beacon tín hiệu
+                    </span>
+</td>
+<td class="py-4 px-4">
+<div class="text-on-surface font-medium">BQL Phố Cổ &amp; WayEcho Lab</div>
+<div class="text-[11px] text-on-surface-variant">12/01/2025</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Chỉnh sửa dữ liệu" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-tertiary transition-colors" title="Bản đồ xúc giác" type="button">
+<span class="material-symbols-outlined text-[18px]">touch_app</span>
+</button>
+</div>
+</td>
+</tr>
+<!-- Row 5 -->
+<tr class="hover:bg-surface-pure transition-colors">
+<td class="py-4 px-4">
+<div class="font-bold text-high-contrast-black">Không Gian Phố Sách 19/12</div>
+<div class="text-[12px] text-on-surface-variant">Phố 19/12, Hoàn Kiếm • Điểm hẹn văn hóa</div>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-accessible-emerald/15 text-tertiary text-label-sm font-label-sm font-bold">
+<span class="material-symbols-outlined text-[14px]">check_circle</span> Đạt Chuẩn WCAG 2.2 AAA
+                    </span>
+</td>
+<td class="py-4 px-4">
+<span class="inline-flex items-center gap-1 text-primary font-semibold text-label-sm">
+<span class="material-symbols-outlined text-[16px]">headphones</span> Tích hợp sách nói NFC
+                    </span>
+</td>
+<td class="py-4 px-4">
+<div class="text-on-surface font-medium">Hội Người Mù TP Hà Nội</div>
+<div class="text-[11px] text-on-surface-variant">14/02/2025</div>
+</td>
+<td class="py-4 px-4 text-right">
+<div class="inline-flex items-center gap-1">
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-primary transition-colors" title="Chỉnh sửa dữ liệu" type="button">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+</button>
+<button class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant hover:text-tertiary transition-colors" title="Bản đồ xúc giác" type="button">
+<span class="material-symbols-outlined text-[18px]">touch_app</span>
+</button>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</div>
+<!-- RIGHT COLUMN (32% - 4 Columns): Workforce Dispatch, Partner Approvals & Security Telemetry -->
+<div class="lg:col-span-4 space-y-8">
+<!-- Active Sighted Guides Shift Roster -->
+<section aria-labelledby="active-guides-heading" class="bg-surface-pure rounded-2xl p-6 shadow-sm space-y-5">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-high-contrast-black font-bold" id="active-guides-heading">
+              Hướng Dẫn Viên Trực Chiến
+            </h2>
+<span class="w-3 h-3 rounded-full bg-accessible-emerald animate-pulse" title="Trực tuyến"></span>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+            Lực lượng chuyên nghiệp và tình nguyện viên có chứng chỉ hỗ trợ đa giác quan.
+          </p>
+<div class="space-y-3.5">
+<!-- Guide Item 1 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center text-label-md">
+                    NH
+                  </div>
+<div>
+<div class="font-bold text-on-surface text-label-md">Nguyễn Minh Hoàng</div>
+<div class="text-[12px] text-tertiary font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">star</span> Guide Pro (Kỹ năng VSL/ISL)
+                    </div>
+</div>
+</div>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded bg-error-container text-error font-bold">Đang cứu hộ</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant flex items-center justify-between pt-1">
+<span>Vị trí: Mã Mây / Hàng Chiếu</span>
+<span class="text-on-surface font-semibold">Ca 13h - 18h</span>
+</div>
+</div>
+<!-- Guide Item 2 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-10 h-10 rounded-full bg-accessible-emerald text-on-primary font-bold flex items-center justify-center text-label-md">
+                    TT
+                  </div>
+<div>
+<div class="font-bold text-on-surface text-label-md">Lê Thu Trang</div>
+<div class="text-[12px] text-on-surface-variant">TNV ĐH Hà Nội (Tiếng Anh/Pháp)</div>
+</div>
+</div>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded bg-accessible-emerald/20 text-tertiary font-bold">Sẵn sàng</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant flex items-center justify-between pt-1">
+<span>Vị trí: Chợ Đồng Xuân</span>
+<button class="text-label-sm font-label-sm text-primary font-bold hover:underline" type="button">Điều phối ngay</button>
+</div>
+</div>
+<!-- Guide Item 3 -->
+<div class="p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-colors space-y-2">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2.5">
+<div class="w-10 h-10 rounded-full bg-slate-surface text-surface-pure font-bold flex items-center justify-center text-label-md">
+                    HD
+                  </div>
+<div>
+<div class="font-bold text-on-surface text-label-md">Vũ Hùng Dũng</div>
+<div class="text-[12px] text-on-surface-variant">Tài xế Xe Điện Tiếp Cận #08</div>
+</div>
+</div>
+<span class="text-label-sm font-label-sm px-2 py-0.5 rounded bg-secondary-container text-secondary font-bold">Đang chạy</span>
+</div>
+<div class="text-body-sm font-body-sm text-on-surface-variant flex items-center justify-between pt-1">
+<span>Vị trí: Trả khách Ô Quan Chưởng</span>
+<span class="text-on-surface font-semibold">Pin 88%</span>
+</div>
+</div>
+</div>
+<button class="w-full h-11 rounded-xl bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-label-md text-label-md transition-colors flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">group</span>
+<span>Xem Danh Sách Toàn Bộ 45 Hướng Dẫn Viên</span>
+</button>
+</section>
+<!-- Partner & Guide Pending Approvals -->
+<section aria-labelledby="approvals-heading" class="bg-surface-pure rounded-2xl p-6 shadow-sm space-y-4">
+<div class="flex items-center justify-between">
+<h2 class="font-headline-md text-headline-md text-high-contrast-black font-bold" id="approvals-heading">
+              Hồ Sơ Chờ Phê Duyệt
+            </h2>
+<span class="w-6 h-6 rounded-full bg-amber-vibrant text-high-contrast-black font-bold text-[12px] flex items-center justify-center">
+              2
+            </span>
+</div>
+<!-- Pending Card 1 -->
+<div class="p-4 rounded-xl bg-warm-sand space-y-3">
+<div class="flex items-start justify-between">
+<div class="space-y-0.5">
+<span class="text-[11px] font-bold uppercase tracking-wider text-primary">Tình Nguyện Viên Mới</span>
+<p class="font-bold text-on-surface text-label-md">Hoàng Thảo My (SV ĐHQG Hà Nội)</p>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Hoàn thành chứng chỉ kỹ năng dẫn đường 12h với Hội Người mù Hoàn Kiếm.</p>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="flex-1 h-9 rounded-lg bg-accessible-emerald text-on-primary text-label-sm font-label-sm font-bold hover:bg-tertiary transition-colors" type="button">
+                Duyệt Hồ Sơ
+              </button>
+<button class="h-9 px-3 rounded-lg bg-surface-pure text-on-surface hover:bg-surface-container-high text-label-sm font-label-sm transition-colors" type="button">
+                Xem Chứng Chỉ
+              </button>
+</div>
+</div>
+<!-- Pending Card 2 -->
+<div class="p-4 rounded-xl bg-surface-container-low space-y-3">
+<div class="flex items-start justify-between">
+<div class="space-y-0.5">
+<span class="text-[11px] font-bold uppercase tracking-wider text-tertiary">Đối Tác Di Sản / Ẩm Thực</span>
+<p class="font-bold text-on-surface text-label-md">Cà phê Giảng (Yên Phụ - Nguyễn Hữu Huân)</p>
+<p class="text-body-sm font-body-sm text-on-surface-variant">Đề xuất lắp đặt thực đơn chữ nổi Braille và Beacon giới thiệu lịch sử cà phê trứng.</p>
+</div>
+</div>
+<div class="flex items-center gap-2 pt-1">
+<button class="flex-1 h-9 rounded-lg bg-accessible-emerald text-on-primary text-label-sm font-label-sm font-bold hover:bg-tertiary transition-colors" type="button">
+                Chấp Thuận &amp; Cấp Tem
+              </button>
+<button class="h-9 px-3 rounded-lg bg-surface-pure text-on-surface hover:bg-surface-container-high text-label-sm font-label-sm transition-colors" type="button">
+                Khảo Sát
+              </button>
+</div>
+</div>
+</section>
+<!-- Compliance, Privacy & System Telemetry Log -->
+<section aria-labelledby="telemetry-heading" class="bg-slate-surface text-surface-pure rounded-2xl p-6 shadow-sm space-y-4">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-focus-gold text-[20px]">shield</span>
+<h2 class="font-headline-sm text-headline-sm text-surface-pure font-bold" id="telemetry-heading">
+                Bảo Vệ Quyền Riêng Tư &amp; Nhật Ký
+              </h2>
+</div>
+<span class="text-[11px] text-tertiary-fixed font-semibold">NĐ 13/2023/NĐ-CP</span>
+</div>
+<p class="text-body-sm font-body-sm text-surface-dim leading-relaxed">
+            Hệ thống mã hóa dữ liệu vị trí GPS định kỳ sau mỗi phiên dẫn đường thành công. Không lưu trữ thông tin nhận dạng cá nhân khiếm thị.
+          </p>
+<div class="space-y-2 text-label-sm font-label-sm pt-2">
+<div class="flex items-center justify-between text-surface-container-highest">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accessible-emerald text-[16px]">lock</span>
+                Mã hóa Token GPS &amp; Audio
+              </span>
+<span class="text-accessible-emerald font-bold">AES-256</span>
+</div>
+<div class="flex items-center justify-between text-surface-container-highest">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-focus-gold text-[16px]">cloud_sync</span>
+                Sao lưu cơ sở dữ liệu di sản
+              </span>
+<span class="text-secondary-fixed-dim">03:00 Sáng nay</span>
+</div>
+<div class="flex items-center justify-between text-surface-container-highest">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-accessible-emerald text-[16px]">verified_user</span>
+                Kiểm định Trợ Năng Định Kỳ
+              </span>
+<span class="text-tertiary-fixed font-bold">WCAG 2.2 AAA</span>
+</div>
+</div>
+<div class="pt-4 flex flex-col gap-2">
+<button class="w-full h-11 rounded-xl bg-amber-vibrant text-high-contrast-black hover:bg-primary-fixed transition-colors font-label-md text-label-md font-bold flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+<span>Cài Đặt Tham Số Hệ Thống</span>
+</button>
+<button class="w-full h-11 rounded-xl bg-high-contrast-black/60 hover:bg-high-contrast-black text-surface-dim hover:text-surface-pure transition-colors font-label-md text-label-md flex items-center justify-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">logout</span>
+<span>Đăng Xuất Phiên An Toàn</span>
+</button>
+</div>
+</section>
+</div>
+</div>
+</section>
+<!-- Interactive Client-side Micro-interactions -->
+<script>
+    (function() {
+      // Auto-sync visual feedback
+      var syncBtn = document.getElementById('btn-sync');
+      var syncIcon = document.getElementById('sync-icon');
+      if (syncBtn && syncIcon) {
+        syncBtn.addEventListener('click', function() {
+          syncIcon.classList.add('rotate-180');
+          syncBtn.setAttribute('disabled', 'true');
+          setTimeout(function() {
+            syncIcon.classList.remove('rotate-180');
+            syncBtn.removeAttribute('disabled');
+          }, 800);
+        });
+      }
+
+      // Quick export alert dialog mock
+      var exportBtn = document.getElementById('btn-export');
+      if (exportBtn) {
+        exportBtn.addEventListener('click', function() {
+          var originalText = exportBtn.innerHTML;
+          exportBtn.innerHTML = '<span class="material-symbols-outlined text-accessible-emerald text-[20px]">check</span><span>Đã chuẩn bị tệp GeoJSON</span>';
+          setTimeout(function() {
+            exportBtn.innerHTML = originalText;
+          }, 2500);
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface border-t border-outline-variant/40 mt-12"><div class="max-w-7xl mx-auto px-gutter py-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"><div class="space-y-4"><div class="flex items-center gap-3"><div class="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-on-primary"><span class="material-symbols-outlined text-[20px]">graphic_eq</span></div><span class="font-headline-sm text-headline-sm text-primary font-bold">WayEcho Hà Nội</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Hệ thống định vị không gian và thuyết minh âm thanh vòm 3D tương tác tại 36 phố phường Hà Nội, kiến tạo hành trình hòa nhập độc lập cho du khách khiếm thị và người yêu di sản.</p><div class="flex items-center gap-3 text-accessible-emerald font-label-sm text-label-sm"><span class="material-symbols-outlined text-[20px]">verified</span><span>Công nghệ hòa nhập số Quốc gia</span></div></div><div class="space-y-3"><h3 class="font-headline-sm text-[1.125rem] text-on-surface font-bold">Trung tâm Trợ năng</h3><ul class="space-y-2.5 font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-accessible-emerald text-[18px]">check_circle</span><span>Bản đồ xúc giác &amp; Lối đi gạch nổi</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-accessible-emerald text-[18px]">check_circle</span><span>Thuyết minh binaural 360 độ</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-accessible-emerald text-[18px]">check_circle</span><span>Nhận diện chướng ngại vật AI</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-accessible-emerald text-[18px]">check_circle</span><span>Tổng đài mô tả trực tiếp từ xa</span></li></ul></div><div class="space-y-3"><h3 class="font-headline-sm text-[1.125rem] text-on-surface font-bold">Dịch vụ &amp; Đồng hành</h3><ul class="space-y-2 font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="dich-vu-va-huong-dan-vien" href="#">Đặt hướng dẫn viên hỗ trợ 1:1</a></li><li><a class="hover:text-primary transition-colors" data-path="ban-do-am-thanh" href="#">Tải trước gói âm thanh ngoại tuyến</a></li><li><a class="hover:text-primary transition-colors" data-path="diem-den" href="#">Điểm dừng có chuẩn xe lăn &amp; gậy trắng</a></li><li><a class="hover:text-primary transition-colors" data-path="blog-va-trai-nghiem" href="#">Kinh nghiệm di chuyển an toàn phố cổ</a></li></ul></div><div class="space-y-4"><h3 class="font-headline-sm text-[1.125rem] text-on-surface font-bold">Trực cấp cứu SOS Phố Cổ</h3><div class="bg-error-container/60 p-4 rounded-xl space-y-2"><p class="text-label-sm font-label-sm text-on-surface-variant">Tổng đài cứu trợ khẩn cấp 24/7:</p><a class="block text-error font-headline-sm text-headline-sm font-bold tracking-wide hover:underline" href="tel:19008282">1900 8282</a><p class="text-[12px] text-on-surface-variant">Trạm điều phối cơ động: 28 Hàng Buồm &amp; Tượng đài Cảm Tử (Hoàn Kiếm)</p></div><div class="text-[12px] text-on-surface-variant flex items-center gap-2"><span class="material-symbols-outlined text-tertiary text-[18px]">schedule</span><span>Hỗ trợ phản ứng nhanh dưới 5 phút</span></div></div></div><div class="pt-8 mt-8 border-t border-outline-variant/40 flex flex-col sm:flex-row items-center justify-between gap-4 text-body-sm font-body-sm text-on-surface-variant"><p>© 2025 WayEcho Hà Nội. Bảo lưu mọi quyền.</p><div class="flex items-center gap-6 text-label-sm font-label-sm"><span>Tuân thủ WCAG 2.2 AAA</span><span class="text-secondary-fixed-dim">•</span><span>Bản quyền dữ liệu âm thanh số Hà Nội</span></div></div></div></footer></body></html>

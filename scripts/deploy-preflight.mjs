@@ -1,0 +1,27 @@
+import { readFileSync, existsSync } from 'node:fs';
+import { resolve } from 'node:path';
+const root = process.cwd();
+const required = ['package.json','package-lock.json','next.config.mjs','app','lib','tests','.gitignore','.env.example'];
+const missing = required.filter(f=>!existsSync(resolve(root,f)));
+const pkg=JSON.parse(readFileSync(resolve(root,'package.json'),'utf8'));
+const notes=[];
+if(missing.length) notes.push(`Missing project files: ${missing.join(', ')}`);
+for (const k of ['build','test','dev']) if(!pkg.scripts?.[k]) notes.push(`Missing npm script: ${k}`);
+const store=readFileSync(resolve(root,'lib/store.js'),'utf8');
+if(store.includes('process.env.VERCEL') && store.includes('"memory"')) notes.push('BLOCKER: Vercel storage uses instance memory; not durable / multi-instance consistent.');
+// Check the active route paths, not legacy utilities that are not imported by UI.
+const rideRoute=resolve(root,'app/api/ride-demo/route.js');
+const escrowRoute=resolve(root,'app/api/escrow/route.js');
+const ridePage=resolve(root,'app/services/ride-booking/page.jsx');
+const escrowPage=resolve(root,'components/EscrowLedgerView.jsx');
+if(![rideRoute,ridePage].every(existsSync) || !readFileSync(ridePage,'utf8').includes('/api/ride-demo')) notes.push('BLOCKER: Active ride flow is missing server API integration.');
+else notes.push('INFO: Ride demo uses server API; persistence is subject to storageMode (see above).');
+if(![escrowRoute,escrowPage].every(existsSync) || !readFileSync(escrowPage,'utf8').includes('listEscrow')) notes.push('BLOCKER: Active Escrow flow is missing server API integration.');
+else notes.push('INFO: Escrow demo uses server API; persistence is subject to storageMode (see above).');
+if(!process.env.WAYECHO_SESSION_SECRET) notes.push('CONFIG: WAYECHO_SESSION_SECRET not set (required for production).');
+if(!process.env.WAYECHO_USERS) notes.push('CONFIG: WAYECHO_USERS not set (needed for partner/admin login).');
+console.log('WayEcho deploy preflight');
+for(const n of notes) console.log('- '+n);
+console.log('Source file check:',missing.length?'FAIL':'PASS');
+console.log('Read DEPLOY_GITHUB_VERCEL_CHECKLIST.md before claiming readiness.');
+process.exitCode=missing.length?1:0;

@@ -1,0 +1,3 @@
+import LoginForm from "@/components/LoginForm";import LogoutButton from "@/components/LogoutButton";
+export const metadata={title:"Đăng nhập nội bộ WayEcho",robots:{index:false,follow:false}};
+export default function InternalLogin(){return <div className="container-page py-12"><div className="mx-auto max-w-lg rounded-3xl border border-[#ead6bf] bg-white p-8"><p className="font-bold text-[#c75c13]">WAYECHO · INTERNAL</p><h1 className="mt-2 text-4xl">Đăng nhập nhân viên</h1><p className="mt-3 text-sm text-[#665b50]">Tư vấn viên chỉ có quyền truy cập Trung tâm tư vấn; Admin quản lý hệ thống. Bản trải nghiệm: không cần tài khoản hay mật khẩu, dữ liệu chỉ là minh họa.</p><LoginForm portal="internal"/><div className="mt-5"><LogoutButton/></div></div></div>}

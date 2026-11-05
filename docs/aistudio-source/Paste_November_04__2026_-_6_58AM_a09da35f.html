@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600;700&amp;family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "primary-fixed": "#ffdcc3", "on-tertiary-fixed-variant": "#005049", "secondary-fixed-dim": "#bec6e0", "error": "#ba1a1a", "background": "#f7f9fb", "inverse-on-surface": "#eff1f3", "surface-container-low": "#f2f4f6", "surface-bright": "#f7f9fb", "secondary-fixed": "#dae2fd", "on-secondary-fixed-variant": "#3f465c", "high-contrast-black": "#020617", "slate-surface": "#1E293B", "secondary": "#565e74", "on-tertiary-fixed": "#00201d", "on-primary-fixed": "#2f1500", "on-primary-fixed-variant": "#6e3900", "tertiary-container": "#008378", "on-primary-container": "#fffbff", "primary-fixed-dim": "#ffb77d", "error-container": "#ffdad6", "warm-sand": "#FFFAF2", "outline-variant": "#dbc2b0", "tertiary-fixed-dim": "#6bd8cb", "surface-container-high": "#e6e8ea", "on-background": "#191c1e", "secondary-container": "#dae2fd", "on-surface": "#191c1e", "on-error-container": "#93000a", "primary": "#8d4b00", "tertiary-fixed": "#89f5e7", "on-surface-variant": "#554336", "on-error": "#ffffff", "focus-gold": "#F59E0B", "primary-container": "#b15f00", "inverse-primary": "#ffb77d", "surface-dim": "#d8dadc", "surface-container-lowest": "#ffffff", "surface": "#f7f9fb", "tertiary": "#00685f", "on-primary": "#ffffff", "on-tertiary-container": "#f4fffc", "surface-tint": "#904d00", "on-secondary-container": "#5c647a", "on-tertiary": "#ffffff", "surface-container-highest": "#e0e3e5", "on-secondary": "#ffffff", "accessible-emerald": "#0D9488", "inverse-surface": "#2d3133", "surface-variant": "#e0e3e5", "surface-container": "#eceef0", "surface-pure": "#FFFFFF", "amber-vibrant": "#F59E0B", "outline": "#887364", "on-secondary-fixed": "#131b2e" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "gutter-mobile": "1rem", "margin": "2rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-xl": "2.5rem", "gutter": "1.5rem", "margin-mobile": "1rem", "space-md": "1rem" }, "fontFamily": { "headline-md": [ "Be Vietnam Pro" ], "label-lg": [ "Inter" ], "headline-xl-mobile": [ "Be Vietnam Pro" ], "body-md": [ "Inter" ], "label-md": [ "Inter" ], "body-lg": [ "Inter" ], "headline-lg-mobile": [ "Be Vietnam Pro" ], "body-sm": [ "Inter" ], "label-sm": [ "Inter" ], "headline-xl": [ "Be Vietnam Pro" ], "headline-sm": [ "Be Vietnam Pro" ], "headline-lg": [ "Be Vietnam Pro" ] }, "fontSize": { "headline-md": [ "1.5rem", { "lineHeight": "2rem", "letterSpacing": "0", "fontWeight": "600" } ], "label-lg": [ "1rem", { "lineHeight": "1.5rem", "letterSpacing": "0.02em", "fontWeight": "600" } ], "headline-xl-mobile": [ "2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "body-md": [ "1rem", { "lineHeight": "1.625rem", "letterSpacing": "0.01em", "fontWeight": "400" } ], "label-md": [ "0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.02em", "fontWeight": "600" } ], "body-lg": [ "1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "0.01em", "fontWeight": "400" } ], "headline-lg-mobile": [ "1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "0", "fontWeight": "700" } ], "body-sm": [ "0.875rem", { "lineHeight": "1.375rem", "letterSpacing": "0.015em", "fontWeight": "400" } ], "label-sm": [ "0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.04em", "fontWeight": "700" } ], "headline-xl": [ "3rem", { "lineHeight": "3.5rem", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-sm": [ "1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "0", "fontWeight": "600" } ], "headline-lg": [ "2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.01em", "fontWeight": "700" } ] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-slate-surface text-surface-pure text-xs"><div class="w-full px-gutter flex flex-wrap items-center justify-between h-10 gap-2"><div class="flex items-center gap-space-sm"><span class="bg-accessible-emerald text-on-primary px-2 py-0.5 rounded text-[11px] font-bold uppercase tracking-wider">WCAG 2.2 AAA</span><span class="hidden sm:inline text-secondary-fixed-dim text-xs font-label-sm">Tiêu chuẩn tiếp cận du lịch Phố Cổ</span></div><div class="flex items-center gap-space-md"><button aria-label="Bật độ tương phản cao" class="flex items-center gap-1 hover:text-focus-gold transition-colors focus:outline-none focus:ring-2 focus:ring-focus-gold rounded px-1.5 py-0.5" type="button"><span class="material-symbols-outlined text-[16px]">contrast</span><span class="font-label-sm text-xs">Tương phản cao</span></button><button aria-label="Bật đọc văn bản giọng nói" class="flex items-center gap-1 hover:text-focus-gold transition-colors focus:outline-none focus:ring-2 focus:ring-focus-gold rounded px-1.5 py-0.5" type="button"><span class="material-symbols-outlined text-[16px]">record_voice_over</span><span class="font-label-sm text-xs">Đọc âm thanh</span></button><a aria-label="Tổng đài hỗ trợ khẩn cấp 1900 8282" class="flex items-center gap-1 bg-error text-on-error px-2 py-0.5 rounded font-label-sm text-xs font-bold hover:bg-error-container hover:text-on-error-container transition-colors" href="tel:19008282"><span class="material-symbols-outlined text-[16px]">emergency</span><span>SOS 24/7: 1900 8282</span></a></div></div></div><div class="h-20 w-full px-gutter flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex flex-col group focus:outline-none focus:ring-2 focus:ring-focus-gold rounded-lg p-1" data-path="trang-chu" href="#"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[28px]">spatial_audio_off</span><span class="font-headline-sm text-headline-sm text-primary tracking-tight group-hover:text-primary-container transition-colors">WayEcho</span></div><span class="font-label-sm text-[10px] uppercase tracking-wider text-on-surface-variant">HEAR YOUR WAY - PHỐ CỔ</span></a></div><nav class="hidden xl:flex items-center gap-1" data-active-classes="bg-primary-container text-on-primary-container font-label-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="diem-den" href="#">Điểm đến</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="dich-vu-va-huong-dan-vien" href="#">Dịch vụ &amp; Hướng dẫn viên</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="blog-va-trai-nghiem" href="#">Blog &amp; Trải nghiệm</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="ban-do-am-thanh" href="#">Bản đồ âm thanh</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="tro-ly-camera-ai" href="#">Trợ lý Camera AI</a><a class="px-3 py-2 rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container-high hover:text-on-surface transition-colors" data-path="cong-doi-tac" href="#">Cổng Đối tác</a></nav><div class="flex items-center gap-space-sm"><a aria-label="Gọi khẩn cấp SOS hỗ trợ người khiếm thị" class="hidden md:inline-flex items-center gap-2 h-11 px-3.5 bg-error text-on-error font-label-md text-label-md rounded-lg shadow-sm hover:bg-error-container hover:text-on-error-container focus:outline-none focus:ring-2 focus:ring-focus-gold transition-colors" href="tel:19008282"><span class="material-symbols-outlined text-[20px]">ring_volume</span><span>SOS Hotline</span></a><div aria-label="Tài khoản người dùng" class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-[120px] bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Utility Ribbon / Breadcrumb & High-Standard Security Notice -->
+<section class="w-full bg-surface-container-low py-space-sm px-gutter">
+<div class="max-w-7xl mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-between gap-space-sm">
+<!-- Breadcrumb with clear keyboard navigable hints -->
+<nav aria-label="Đường dẫn điều hướng" class="flex items-center flex-wrap gap-2 text-on-surface-variant font-label-md text-label-md">
+<a class="hover:text-primary transition-colors flex items-center gap-1 focus:outline-none focus:text-primary" data-path="trang-chu" href="#">
+<span class="material-symbols-outlined text-[18px]">home</span>
+<span>Trang chủ</span>
+</a>
+<span aria-hidden="true" class="text-secondary-fixed-dim">/</span>
+<a class="hover:text-primary transition-colors focus:outline-none focus:text-primary" data-path="cong-doi-tac" href="#">
+          Cổng đối tác &amp; Người đồng hành
+        </a>
+<span aria-hidden="true" class="text-secondary-fixed-dim">/</span>
+<span aria-current="page" class="text-on-surface font-headline-sm text-headline-sm">
+          Đăng nhập hệ thống điều phối
+        </span>
+</nav>
+<!-- Security & Regulatory Badges -->
+<div class="flex items-center flex-wrap gap-2 text-label-sm font-label-sm">
+<span class="inline-flex items-center gap-1 bg-surface-pure text-tertiary px-2.5 py-1 rounded shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-accessible-emerald">verified_user</span>
+<span>SSL 256-bit An Toàn</span>
+</span>
+<span class="inline-flex items-center gap-1 bg-slate-surface text-surface-pure px-2.5 py-1 rounded shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-focus-gold">gavel</span>
+<span>Nghị định 13/2023/NĐ-CP Bảo vệ dữ liệu cá nhân</span>
+</span>
+</div>
+</div>
+</section>
+<!-- Security Protocol Notice Banner -->
+<aside aria-label="Thông báo an ninh cổng đối tác" class="w-full bg-slate-surface text-surface-pure py-space-sm px-gutter">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span aria-hidden="true" class="material-symbols-outlined text-focus-gold text-[22px] flex-shrink-0">shield_lock</span>
+<p class="font-body-sm text-body-sm text-surface-container">
+<strong class="text-surface-pure font-label-md">Cổng Thông Tin Bảo Mật Thực Địa:</strong> Dành riêng cho Hướng Dẫn Viên (Sighted Guide), Tình Nguyện Viên Di Sản &amp; Điểm Đến Đối Tác 36 Phố Phường Hà Nội.
+        </p>
+</div>
+<span class="hidden md:inline-flex items-center gap-1 text-accessible-emerald font-label-sm uppercase tracking-wider flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+        BẢO MẬT CẤP ĐỘ 3
+      </span>
+</div>
+</aside>
+<!-- Main Workstation Layout -->
+<main class="w-full px-gutter py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- LEFT COLUMN: Auth & Accessible Form Flow (7 cols = ~58%) -->
+<section aria-labelledby="form-auth-heading" class="lg:col-span-7 flex flex-col gap-space-lg">
+<!-- Header Group -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded uppercase tracking-wider">
+              Trạm Điều Phối Số 01 - Hoàn Kiếm
+            </span>
+<span class="text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-accessible-emerald">radio_button_checked</span>
+              Máy chủ phản hồi 14ms
+            </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight" id="form-auth-heading">
+            Đăng Nhập Cổng Đồng Hành &amp; Đối Tác
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+            Kết nối mạng lưới hỗ trợ thực địa, tiếp nhận yêu cầu dẫn đường âm thanh và quản trị lộ trình không rào cản cho du khách khiếm thị.
+          </p>
+</div>
+<!-- Sensory & Screen Reader Assistant Panel -->
+<div class="bg-warm-sand p-space-md rounded-xl shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[26px]">spatial_audio</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Chế độ Thuyết minh Thính giác (Voice Navigation)</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Phím tắt: <kbd class="px-1.5 py-0.5 bg-surface-pure rounded text-high-contrast-black font-bold">Alt + L</kbd> (Ô nhập liệu), <kbd class="px-1.5 py-0.5 bg-surface-pure rounded text-high-contrast-black font-bold">Alt + R</kbd> (Đổi vai trò)</p>
+</div>
+</div>
+<button aria-label="Bật giọng nói hướng dẫn các bước đăng nhập bằng âm thanh" class="w-full sm:w-auto h-12 px-space-md bg-slate-surface text-surface-pure font-label-md text-label-md rounded-lg hover:bg-high-contrast-black transition-colors flex items-center justify-center gap-2 focus:outline-none focus:ring-4 focus:ring-focus-gold flex-shrink-0" id="btnVoiceGuide" type="button">
+<span class="material-symbols-outlined text-[20px] text-focus-gold">volume_up</span>
+<span>Nghe Thuyết Minh Mẫu</span>
+</button>
+</div>
+<!-- Role Switcher Segmented Control (WCAG Radio Group / Tabs) -->
+<div aria-labelledby="role-select-label" class="flex flex-col gap-space-xs" role="region">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" id="role-select-label">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">badge</span>
+              Chọn vai trò tài khoản thực địa:
+            </span>
+<span class="text-on-surface-variant text-label-sm font-label-sm" id="roleSelectedIndicator">Đang chọn: Hướng Dẫn Viên</span>
+</label>
+<div aria-label="Danh mục vai trò đối tác" class="grid grid-cols-1 sm:grid-cols-3 gap-space-xs bg-surface-container p-1.5 rounded-xl shadow-sm" role="tablist">
+<!-- Role 1: HDV (Active) -->
+<button aria-controls="panelRoleContent" aria-selected="true" class="role-tab flex flex-col items-center justify-center p-space-sm rounded-lg bg-surface-pure text-on-surface shadow-sm transition-all focus:outline-none focus:ring-4 focus:ring-focus-gold" id="tabRole1" onclick="switchRole('hdv')" role="tab" tabindex="0" type="button">
+<span class="material-symbols-outlined text-[28px] text-primary mb-1">person_pin</span>
+<span class="font-label-md text-label-md text-center">Hướng Dẫn Viên</span>
+<span class="font-label-sm text-xs text-primary font-bold">Guide Pro Thẻ Xanh</span>
+</button>
+<!-- Role 2: TNV -->
+<button aria-controls="panelRoleContent" aria-selected="false" class="role-tab flex flex-col items-center justify-center p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-pure hover:text-on-surface transition-all focus:outline-none focus:ring-4 focus:ring-focus-gold" id="tabRole2" onclick="switchRole('tnv')" role="tab" tabindex="-1" type="button">
+<span class="material-symbols-outlined text-[28px] mb-1">volunteer_activism</span>
+<span class="font-label-md text-label-md text-center">Tình Nguyện Viên</span>
+<span class="font-label-sm text-xs text-secondary">Sinh Viên &amp; Đội Phản Ứng</span>
+</button>
+<!-- Role 3: Diem Den -->
+<button aria-controls="panelRoleContent" aria-selected="false" class="role-tab flex flex-col items-center justify-center p-space-sm rounded-lg text-on-surface-variant hover:bg-surface-pure hover:text-on-surface transition-all focus:outline-none focus:ring-4 focus:ring-focus-gold" id="tabRole3" onclick="switchRole('partner')" role="tab" tabindex="-1" type="button">
+<span class="material-symbols-outlined text-[28px] mb-1">storefront</span>
+<span class="font-label-md text-label-md text-center">Điểm Đến / Quán Cổ</span>
+<span class="font-label-sm text-xs text-secondary">Di Tích &amp; Cơ Sở Lưu Trú</span>
+</button>
+</div>
+</div>
+<!-- Accessible Login Card Container -->
+<div class="bg-surface-pure p-space-lg rounded-xl shadow-md flex flex-col gap-space-lg" id="panelRoleContent" role="tabpanel">
+<form class="flex flex-col gap-space-lg" id="portalLoginForm" novalidate="" onsubmit="event.preventDefault(); triggerAuthSim();">
+<!-- Input 1: Identity / Partner Code -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5" for="identityInput">
+<span class="material-symbols-outlined text-primary text-[20px]">account_box</span>
+<span>Tên đăng nhập hoặc Mã định danh đối tác</span>
+<span aria-label="Bắt buộc" class="text-error font-bold">*</span>
+</label>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Ví dụ: HDV-HK-2025</span>
+</div>
+<div class="relative">
+<input aria-describedby="identityHelp" autocomplete="username" class="w-full h-14 pl-12 pr-12 bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg shadow-sm placeholder:text-on-surface-variant/60 focus:bg-surface-pure focus:outline-none focus:ring-4 focus:ring-focus-gold" id="identityInput" placeholder="Nhập email đối tác hoặc mã HDV-HK-XXXX..." required="" type="text"/>
+<span aria-hidden="true" class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">fingerprint</span>
+<button aria-label="Đọc to tên nhãn ô tài khoản bằng âm thanh" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-lg text-on-surface-variant hover:text-primary hover:bg-surface-container focus:outline-none focus:ring-2 focus:ring-focus-gold" onclick="playAudioCue('identity')" type="button">
+<span class="material-symbols-outlined text-[20px]">speech_to_text</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1" id="identityHelp">
+<span class="material-symbols-outlined text-[16px] text-tertiary">info</span>
+<span>Chấp nhận: Mã Thẻ Hướng Dẫn Viên Di Sản, Email tổ chức, hoặc CCCD đã đăng ký cổng Hoàn Kiếm Smart.</span>
+</p>
+</div>
+<!-- Input 2: Password with Reveal & Audio Cue -->
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1.5" for="passwordInput">
+<span class="material-symbols-outlined text-primary text-[20px]">key</span>
+<span>Mật khẩu bảo mật hệ thống</span>
+<span aria-label="Bắt buộc" class="text-error font-bold">*</span>
+</label>
+<a class="font-label-md text-label-md text-primary hover:text-primary-container transition-colors underline focus:outline-none focus:ring-2 focus:ring-focus-gold rounded" href="#tro-giup-tai-khoan">
+                  Quên mật khẩu?
+                </a>
+</div>
+<div class="relative">
+<input aria-describedby="passwordHelp" autocomplete="current-password" class="w-full h-14 pl-12 pr-14 bg-surface-container-lowest text-on-surface font-body-md text-body-md rounded-lg shadow-sm placeholder:text-on-surface-variant/60 focus:bg-surface-pure focus:outline-none focus:ring-4 focus:ring-focus-gold" id="passwordInput" placeholder="Nhập mật khẩu ít nhất 8 ký tự..." required="" type="password"/>
+<span aria-hidden="true" class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-on-surface-variant text-[22px]">lock</span>
+<button aria-label="Hiển thị mật khẩu dưới dạng văn bản thường" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container focus:outline-none focus:ring-2 focus:ring-focus-gold" id="togglePasswordBtn" onclick="togglePasswordVisibility()" type="button">
+<span class="material-symbols-outlined text-[22px]" id="togglePasswordIcon">visibility</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1" id="passwordHelp">
+<span class="material-symbols-outlined text-[16px] text-accessible-emerald">check_circle</span>
+<span>Hệ thống mã hóa khóa riêng nội bộ end-to-end cho mọi phiên điều phối di sản.</span>
+</p>
+</div>
+<!-- Checkbox: Remember Field Device (48px Touch Target Compliant) -->
+<div class="flex items-start gap-3 p-space-sm rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors">
+<input checked="" class="mt-1 w-6 h-6 rounded bg-surface-pure text-primary focus:ring-4 focus:ring-focus-gold" id="rememberSession" type="checkbox"/>
+<label class="flex flex-col cursor-pointer select-none" for="rememberSession">
+<span class="font-label-md text-label-md text-on-surface">Duy trì phiên đăng nhập trên thiết bị thực địa này</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Tự động hủy phiên an toàn sau 12 giờ không hoạt động để bảo vệ lộ trình du khách khiếm thị.</span>
+</label>
+</div>
+<!-- Primary Big CTA Button -->
+<button class="w-full min-h-[56px] px-space-xl bg-amber-vibrant hover:bg-primary-container text-high-contrast-black hover:text-on-primary-container font-headline-sm text-headline-sm rounded-xl shadow-lg transition-all flex items-center justify-center gap-space-sm focus:outline-none focus:ring-4 focus:ring-focus-gold active:scale-[0.99]" id="btnSubmitLogin" type="submit">
+<span class="material-symbols-outlined text-[26px]">login</span>
+<span>ĐĂNG NHẬP VÀO BẢNG ĐIỀU PHỐI (ENTER)</span>
+<span class="material-symbols-outlined text-[20px] ml-1">arrow_forward</span>
+</button>
+</form>
+<!-- Alternative Digital Credentials / Hoàn Kiếm Heritage SSO -->
+<div class="flex flex-col gap-space-md pt-space-xs">
+<div class="relative flex items-center justify-center">
+<span class="w-full h-[1px] bg-outline-variant/50 absolute"></span>
+<span class="relative bg-surface-pure px-space-md font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">
+                Hoặc xác thực liên thông
+              </span>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<button class="h-14 px-space-md bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg shadow-sm flex items-center justify-center gap-2.5 transition-colors focus:outline-none focus:ring-4 focus:ring-focus-gold" onclick="alert('Đang kết nối đầu đọc thẻ NFC / QR Thẻ Chứng Chỉ Phố Cổ Số...');" type="button">
+<span class="material-symbols-outlined text-[22px] text-tertiary">nfc</span>
+<span>Thẻ Chứng Chỉ Phố Cổ Số</span>
+</button>
+<button class="h-14 px-space-md bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg shadow-sm flex items-center justify-center gap-2.5 transition-colors focus:outline-none focus:ring-4 focus:ring-focus-gold" onclick="alert('Đang chuyển hướng sang Cổng Đăng Nhập Một Cửa (SSO) BQL Hồ Hoàn Kiếm...');" type="button">
+<span class="material-symbols-outlined text-[22px] text-primary">account_balance</span>
+<span>SSO Ban Quản Lý Phố Cổ</span>
+</button>
+</div>
+</div>
+<!-- Direct Dispatch Helpline Footer -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm pt-space-sm text-body-sm font-body-sm text-on-surface-variant" id="tro-giup-tai-khoan">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">support_agent</span>
+<span>Cần cấp lại quyền truy cập hoặc đổi ca kíp?</span>
+</span>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-error hover:underline focus:outline-none focus:ring-2 focus:ring-focus-gold rounded" href="tel:19008282">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>Trực Ban Điều Phối: 1900 8282 (Nhánh 2)</span>
+</a>
+</div>
+</div>
+<!-- Live Visual Snapshot: Heritage Route Coordination -->
+<div class="bg-surface-pure rounded-xl p-space-md shadow-sm flex flex-col md:flex-row items-center gap-space-md">
+<div class="w-full md:w-36 h-28 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Tình nguyện viên trẻ đeo băng đỏ WayEcho đang kiên nhẫn hướng dẫn du khách khiếm thị cầm gậy trắng vượt qua ngã tư Hàng Buồm - Mã Mây trong nắng sớm Hà Nội, ánh sáng vàng ấm áp, ảnh chân thực cảm xúc cao." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGwpB1hFEMFXX_BDiNjpxuNNsV9yOJzVlSBtKggltQ4-Ns0m5IpZF5qrE_e5hSAHpSAbKavSLo9hcwkjQakQI4LY4XaMIuJCJppXI9KmE6sRhSKummyVAHd49Ul1Xv8fQ79E4rc1qn-QFD2q-WeyZzuyFvSD5ghxp4WH8cdf-7bmq6iLMvdHBedj3a8eBzZpOCVTA0NgsrSQv_ZtvRYrt_md_HYIwHrFw5q-pf4xxY"/>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2">
+<span class="bg-primary-fixed text-on-primary-fixed font-label-sm text-xs px-2 py-0.5 rounded font-bold">LỜI NHẮC ĐIỀU PHỐI</span>
+<span class="text-on-surface-variant font-label-sm text-xs">Ca trực chiều: 14:00 - 18:00</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-surface">Đón tiếp đoàn khách khiếm thị tại Đền Bạch Mã</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Tất cả HDV và TNV vui lòng kiểm tra thiết bị định vị phát xung âm thanh Beacon trước khi nhận nhiệm vụ tại điểm tập kết 76 Hàng Buồm.
+            </p>
+</div>
+</div>
+</section>
+<!-- RIGHT COLUMN: Real-Time Network & Sighted Guide Guidelines (5 cols = ~42%) -->
+<aside aria-label="Thông tin mạng lưới và hướng dẫn thực địa" class="lg:col-span-5 flex flex-col gap-space-lg">
+<!-- Module 1: Real-Time Field Operations Status -->
+<div class="bg-slate-surface text-surface-pure rounded-xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="relative flex h-3 w-3">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-accessible-emerald opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-accessible-emerald"></span>
+</span>
+<h2 class="font-label-lg text-label-lg text-surface-pure uppercase tracking-wider">
+                Mạng Lưới Thực Địa Hôm Nay
+              </h2>
+</div>
+<span class="bg-surface-pure/10 text-focus-gold font-label-sm text-xs px-2 py-0.5 rounded">
+              Trực Tiếp 36 Phố Phường
+            </span>
+</div>
+<!-- Stats Grid -->
+<div class="grid grid-cols-3 gap-space-xs text-center py-space-xs">
+<div class="bg-white/5 rounded-lg p-space-sm flex flex-col items-center">
+<span class="font-headline-lg text-headline-lg text-focus-gold font-bold">38</span>
+<span class="font-body-sm text-xs text-secondary-fixed-dim mt-1">HDV &amp; TNV Trực chiến</span>
+</div>
+<div class="bg-white/5 rounded-lg p-space-sm flex flex-col items-center">
+<span class="font-headline-lg text-headline-lg text-accessible-emerald font-bold">156</span>
+<span class="font-body-sm text-xs text-secondary-fixed-dim mt-1">Du khách đang di chuyển</span>
+</div>
+<div class="bg-white/5 rounded-lg p-space-sm flex flex-col items-center">
+<span class="font-headline-lg text-headline-lg text-surface-pure font-bold">1m 42s</span>
+<span class="font-body-sm text-xs text-secondary-fixed-dim mt-1">Tốc độ kết nối trung bình</span>
+</div>
+</div>
+<!-- Heatmap Location Indicator -->
+<div class="bg-white/5 rounded-lg p-space-sm flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">near_me</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-surface-pure">Điểm nóng cần tiếp sức</span>
+<span class="font-body-sm text-xs text-secondary-fixed-dim">Ngã tư Tạ Hiện - Hàng Bạc (Đông du khách)</span>
+</div>
+</div>
+<span class="px-2 py-1 bg-accessible-emerald/20 text-tertiary-fixed rounded font-label-sm text-xs font-bold">Đã bố trí 6 TNV</span>
+</div>
+</div>
+<!-- Module 2: The Sighted Guide Ethics Code (Quy Ước Đồng Hành) -->
+<div class="bg-surface-pure rounded-xl p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">diversity_1</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Quy Ước Hành Xử &amp; Đạo Đức Đồng Hành</h2>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Sighted Guide Code - Tiêu chuẩn Quốc tế WCAG AAA</p>
+</div>
+</div>
+<div class="flex flex-col gap-space-md">
+<!-- Principle 1 -->
+<div class="flex items-start gap-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center flex-shrink-0 text-sm mt-0.5">1</span>
+<div class="flex flex-col">
+<h3 class="font-label-md text-label-md text-on-surface font-bold">Tôn trọng quyền tự chủ của du khách</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Luôn cất tiếng chào và <strong class="text-on-surface">hỏi trước khi chạm hoặc hỗ trợ</strong>. Tuyệt đối không tự ý kéo gậy dò đường hoặc giật tay người khiếm thị.
+                </p>
+</div>
+</div>
+<!-- Principle 2 -->
+<div class="flex items-start gap-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center flex-shrink-0 text-sm mt-0.5">2</span>
+<div class="flex flex-col">
+<h3 class="font-label-md text-label-md text-on-surface font-bold">Kỹ thuật Dẫn đường Chuẩn mực (Human Guide)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Đứng cách nửa bước phía trước. Để du khách <strong class="text-on-surface">nắm nhẹ vào mặt sau khuỷu tay của bạn</strong> để họ cảm nhận từng nhịp rẽ tự nhiên của cơ thể.
+                </p>
+</div>
+</div>
+<!-- Principle 3 -->
+<div class="flex items-start gap-space-sm bg-surface-container-low p-space-sm rounded-lg">
+<span class="w-7 h-7 rounded-full bg-primary text-on-primary font-bold flex items-center justify-center flex-fail text-sm mt-0.5">3</span>
+<div class="flex flex-col">
+<h3 class="font-label-md text-label-md text-on-surface font-bold">Miêu tả Định hướng theo Mặt Đồng Hồ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                  Tránh dùng từ "ở đằng kia" hay "chỗ này". Hãy miêu tả vị trí: <strong class="text-on-surface">"Bậc thềm gỗ cao 10cm ở hướng 12 giờ"</strong>, "Quán cà phê cổ ở hướng 3 giờ".
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Module 3: Registration for New Guides / Partners -->
+<div class="bg-warm-sand rounded-xl p-space-lg shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[22px]">handshake</span>
+<h2 class="font-label-lg text-label-lg font-bold">Chưa Có Tài Khoản Điều Phối?</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Hãy cùng WayEcho kiến tạo di sản Phố Cổ 36 Phường không rào cản. Chúng tôi cung cấp các khóa đào tạo kỹ năng Sighted Guide miễn phí có chứng nhận của Sở Du Lịch Hà Nội.
+          </p>
+<div class="flex flex-col gap-2 pt-space-xs">
+<button class="w-full min-h-[48px] px-space-md bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2 focus:outline-none focus:ring-4 focus:ring-focus-gold" onclick="alert('Mở mẫu đăng ký đối tác mới...');" type="button">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+<span>Nộp Hồ Sơ Tình Nguyện Viên / Điểm Đến</span>
+</button>
+<button class="w-full min-h-[48px] px-space-md bg-surface-pure hover:bg-surface-container text-on-surface font-label-md text-label-md rounded-lg shadow-sm transition-colors flex items-center justify-center gap-2 focus:outline-none focus:ring-4 focus:ring-focus-gold" onclick="alert('Đang tải lịch trình đào tạo kỹ năng...');" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary">calendar_month</span>
+<span>Xem Lịch Đào Tạo Sighted Guide Tháng Này</span>
+</button>
+</div>
+</div>
+<!-- Module 4: Emergency Rescue & Field Support Depot -->
+<div class="bg-surface-pure rounded-xl p-space-md shadow-sm flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-error-container text-error flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">emergency_share</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-on-surface font-bold">Bốt Trực Ban Thực Địa 24/7</p>
+<p class="font-body-sm text-xs text-on-surface-variant">28 Hàng Buồm • Trực ban khẩn cấp hỗ trợ gậy &amp; pin sạc</p>
+</div>
+</div>
+<a class="px-3 py-2 bg-error text-on-error rounded-lg font-label-sm text-xs font-bold hover:bg-error-container hover:text-on-error-container transition-colors flex items-center gap-1 focus:outline-none focus:ring-2 focus:ring-focus-gold" href="tel:19008282">
+<span class="material-symbols-outlined text-[16px]">call</span>
+<span>Gọi Ngay</span>
+</a>
+</div>
+</aside>
+</div>
+</main>
+<!-- Inline Micro-Interactions Script for High Accessibility -->
+<script>
+    // State management
+    let activeRole = 'hdv';
+    const roleLabels = {
+      'hdv': 'Hướng Dẫn Viên (Guide Pro)',
+      'tnv': 'Tình Nguyện Viên Hỗ Trợ',
+      'partner': 'Điểm Đến / Kinh Doanh Di Sản'
+    };
+
+    function switchRole(roleKey) {
+      activeRole = roleKey;
+      const tabs = document.querySelectorAll('.role-tab');
+      tabs.forEach(tab => {
+        tab.setAttribute('aria-selected', 'false');
+        tab.classList.remove('bg-surface-pure', 'shadow-sm', 'text-on-surface');
+        tab.classList.add('text-on-surface-variant');
+      });
+
+      let selectedTab;
+      if (roleKey === 'hdv') selectedTab = document.getElementById('tabRole1');
+      if (roleKey === 'tnv') selectedTab = document.getElementById('tabRole2');
+      if (roleKey === 'partner') selectedTab = document.getElementById('tabRole3');
+
+      if (selectedTab) {
+        selectedTab.setAttribute('aria-selected', 'true');
+        selectedTab.classList.remove('text-on-surface-variant');
+        selectedTab.classList.add('bg-surface-pure', 'shadow-sm', 'text-on-surface');
+      }
+
+      const indicator = document.getElementById('roleSelectedIndicator');
+      if (indicator) {
+        indicator.textContent = 'Đang chọn: ' + roleLabels[roleKey];
+      }
+
+      // Announce for Screen Readers via synthetic live region
+      speakText('Bạn đã chuyển sang vai trò: ' + roleLabels[roleKey]);
+    }
+
+    function togglePasswordVisibility() {
+      const pwInput = document.getElementById('passwordInput');
+      const toggleIcon = document.getElementById('togglePasswordIcon');
+      const toggleBtn = document.getElementById('togglePasswordBtn');
+
+      if (pwInput.type === 'password') {
+        pwInput.type = 'text';
+        toggleIcon.textContent = 'visibility_off';
+        toggleBtn.setAttribute('aria-label', 'Ẩn mật khẩu');
+        speakText('Mật khẩu đang hiển thị dạng văn bản');
+      } else {
+        pwInput.type = 'password';
+        toggleIcon.textContent = 'visibility';
+        toggleBtn.setAttribute('aria-label', 'Hiển thị mật khẩu dưới dạng văn bản');
+        speakText('Mật khẩu đã được ẩn');
+      }
+    }
+
+    function playAudioCue(field) {
+      if (field === 'identity') {
+        speakText('Ô nhập tên đăng nhập, email đối tác hoặc mã định danh cấp bởi Ban quản lý Phố Cổ.');
+      }
+    }
+
+    function speakText(msg) {
+      if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(msg);
+        utterance.lang = 'vi-VN';
+        utterance.rate = 1.0;
+        window.speechSynthesis.speak(utterance);
+      }
+    }
+
+    // Voice guidance button
+    const btnVoice = document.getElementById('btnVoiceGuide');
+    if (btnVoice) {
+      btnVoice.addEventListener('click', function() {
+        speakText('Chào mừng bạn đến Cổng Đối tác WayEcho Phố Cổ Hà Nội. Nhấn Alt cộng L để nhập tên đăng nhập. Nhấn Alt cộng R để thay đổi vai trò giữa Hướng Dẫn Viên, Tình Nguyện Viên và Điểm Đến.');
+      });
+    }
+
+    // Hotkey listener for Accessible Navigation
+    window.addEventListener('keydown', function(e) {
+      if (e.altKey && (e.key === 'l' || e.key === 'L')) {
+        e.preventDefault();
+        const input = document.getElementById('identityInput');
+        if (input) input.focus();
+      } else if (e.altKey && (e.key === 'r' || e.key === 'R')) {
+        e.preventDefault();
+        if (activeRole === 'hdv') switchRole('tnv');
+        else if (activeRole === 'tnv') switchRole('partner');
+        else switchRole('hdv');
+      }
+    });
+
+    // Form submit feedback
+    function triggerAuthSim() {
+      const submitBtn = document.getElementById('btnSubmitLogin');
+      const originalText = submitBtn.innerHTML;
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined animate-spin text-[24px]">progress_activity</span><span>Đang đồng bộ hóa khóa bảo mật...</span>';
+      
+      speakText('Hệ thống đang xác thực dữ liệu đối tác...');
+
+      setTimeout(function() {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        alert('Đăng nhập thành công vào Bảng Điều Phối WayEcho (Môi trường Thử nghiệm An toàn).');
+      }, 1200);
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low text-on-surface-variant py-space-xl border-t border-outline-variant/30"><div class="w-full px-gutter max-w-7xl mx-auto flex flex-col gap-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg"><div class="flex flex-col gap-space-sm"><div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[24px]">spatial_audio_off</span><span class="font-headline-sm text-headline-sm text-primary">WayEcho Phố Cổ</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Nền tảng du lịch tiếp cận thính giác và xúc giác đầu tiên tại Di sản Đô thị 36 Phố phường Hà Nội. Đồng hành cùng du khách khiếm thị và hạn chế thị lực.</p><div class="flex items-center gap-2 text-accessible-emerald font-label-sm text-label-sm"><span class="material-symbols-outlined text-[18px]">verified</span><span>Tuân thủ WCAG 2.2 AAA Quốc tế</span></div></div><div class="flex flex-col gap-space-xs"><h2 class="font-label-lg text-label-lg text-on-surface mb-1">Tính năng 36 Phố Phường</h2><ul class="flex flex-col gap-1.5 font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">volume_up</span><span>Bản đồ sóng âm định vị bước chân</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">visibility</span><span>Mô tả cảnh quan thời gian thực AI</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">directions_walk</span><span>Lộ trình không vật cản &amp; bậc thang phẳng</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary">hearing</span><span>Thuyết minh di tích văn hóa âm thanh 3D</span></li></ul></div><div class="flex flex-col gap-space-xs"><h2 class="font-label-lg text-label-lg text-on-surface mb-1">Hỗ trợ &amp; Điều phối</h2><ul class="flex flex-col gap-1.5 font-body-sm text-body-sm"><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-error">phone_in_talk</span><span class="font-label-md text-error">Hotline 24/7: 1900 8282</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">location_on</span><span>Trung tâm điều phối: Hoàn Kiếm, Hà Nội</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">support_agent</span><span>Đội hỗ trợ viên tiếp sức trực tiếp</span></li><li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px]">mail</span><span>hotro@wayecho.vn</span></li></ul></div><div class="flex flex-col gap-space-xs"><h2 class="font-label-lg text-label-lg text-on-surface mb-1">Hợp tác &amp; Cộng đồng</h2><p class="font-body-sm text-body-sm">Kết nối các điểm di tích, quán ăn truyền thống và nghệ nhân địa phương để tạo nên mạng lưới phố cổ không rào cản.</p><a class="mt-2 inline-flex items-center gap-2 text-primary font-label-md text-label-md hover:underline" data-path="cong-doi-tac" href="#"><span class="material-symbols-outlined text-[18px]">handshake</span><span>Tham gia Cổng Đối tác WayEcho</span></a></div></div><div class="flex flex-col sm:flex-row items-center justify-between gap-space-sm pt-space-lg border-t border-outline-variant/20 font-body-sm text-body-sm"><p>© 2025 WayEcho Hà Nội - Hear Your Way. Nền tảng du lịch tiếp cận thông minh Phố Cổ.</p><p class="text-xs text-on-surface-variant/80">Bảo lưu mọi quyền. Dành riêng cho trải nghiệm an toàn, bình đẳng và văn minh.</p></div></div></footer></body></html>

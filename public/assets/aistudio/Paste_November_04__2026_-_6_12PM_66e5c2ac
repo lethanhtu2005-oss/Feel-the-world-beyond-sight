@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+<html lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>WayEcho - Cổng Doanh Nghiệp &amp; Điểm Đến Tiếp Cận Phố Cổ Hà Nội</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&amp;family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "on-primary-fixed-variant": "#633f00", "on-surface-variant": "#514535", "on-primary-fixed": "#291800", "surface-tint": "#825500", "surface-container-low": "#f5f4ee", "surface-container-highest": "#e3e3dd", "tertiary": "#645e4f", "surface-container-lowest": "#ffffff", "tertiary-fixed": "#ebe1cf", "surface": "#faf9f3", "primary-container": "#f8ae38", "on-primary-container": "#694400", "on-secondary": "#ffffff", "outline": "#847563", "primary-fixed-dim": "#ffb951", "surface-dim": "#dbdad4", "on-primary": "#ffffff", "secondary": "#0062a0", "on-secondary-container": "#00426e", "on-tertiary-fixed-variant": "#4c4639", "on-error-container": "#93000a", "outline-variant": "#d6c4af", "secondary-fixed-dim": "#9bcbff", "error": "#ba1a1a", "tertiary-fixed-dim": "#cfc6b4", "primary": "#825500", "secondary-fixed": "#d0e4ff", "on-secondary-fixed-variant": "#004a7a", "on-secondary-fixed": "#001d34", "on-tertiary-fixed": "#1f1b10", "inverse-primary": "#ffb951", "inverse-on-surface": "#f2f1eb", "secondary-container": "#5cb1ff", "on-background": "#1b1c19", "on-surface": "#1b1c19", "primary-fixed": "#ffddb3", "surface-bright": "#faf9f3", "surface-container": "#efeee8", "surface-variant": "#e3e3dd", "on-tertiary-container": "#514b3d", "inverse-surface": "#30312d", "background": "#faf9f3", "on-error": "#ffffff", "tertiary-container": "#c5bcaa", "on-tertiary": "#ffffff", "surface-container-high": "#e9e8e2" }, borderRadius: { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, spacing: { "gutter-sm": "1rem", "space-md": "1rem", "gutter-lg": "2rem", "space-xl": "2.5rem", "gutter": "1.5rem", "space-lg": "1.5rem", "margin-lg": "4rem", "margin": "1.5rem", "margin-md": "2.5rem", "space-sm": "0.5rem", "space-xs": "0.25rem" }, fontFamily: { "display-lg": ["Bricolage Grotesque"], "label-md": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "title-lg": ["Be Vietnam Pro"], "headline-xl": ["Bricolage Grotesque"], "headline-md": ["Bricolage Grotesque"], "body-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Bricolage Grotesque"], "body-lg": ["Be Vietnam Pro"], "display-lg-mobile": ["Bricolage Grotesque"], "body-sm": ["Be Vietnam Pro"] }, fontSize: { "display-lg": ["3.5rem", { "lineHeight": "4rem", "letterSpacing": "-0.03em", "fontWeight": "800" }], "label-md": ["0.875rem", { "lineHeight": "1.25rem", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-sm": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.02em", "fontWeight": "600" }], "title-lg": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-xl": ["2.5rem", { "lineHeight": "3rem", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-md": ["1.5rem", { "lineHeight": "2rem", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-md": ["1rem", { "lineHeight": "1.5rem", "fontWeight": "400" }], "headline-xl-mobile": ["1.75rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-lg": ["1.125rem", { "lineHeight": "1.75rem", "fontWeight": "400" }], "display-lg-mobile": ["2.25rem", { "lineHeight": "2.75rem", "letterSpacing": "-0.02em", "fontWeight": "800" }], "body-sm": ["0.875rem", { "lineHeight": "1.25rem", "fontWeight": "400" }] } } } }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface"><header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full bg-surface-container-high py-space-xs border-b-0 px-gutter-sm lg:px-margin"><div class="max-w-7xl mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider"><span class="material-symbols-outlined text-[16px] text-secondary">accessibility_new</span>WCAG 2.2 AAA</span><span class="text-outline-variant">|</span><div class="flex items-center gap-space-xs"><button aria-label="Thu nhỏ chữ" class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-highest transition-colors" type="button">A-</button><button aria-label="Phóng to chữ" class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-highest transition-colors" type="button">A+</button></div><span class="text-outline-variant">|</span><button class="flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">contrast</span>Độ tương phản cao</button><button class="flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">record_voice_over</span>Đọc màn hình TTS</button><button class="flex items-center gap-space-xs text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm transition-colors" type="button"><span class="material-symbols-outlined text-[16px]">headphones</span>Spatial Audio 3D</button></div><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-tertiary hidden sm:inline">Phố Cổ Không Rào Cản</span><a class="flex items-center gap-space-xs px-space-md py-1 rounded-full bg-error text-on-error font-label-sm text-label-sm shadow-[0_2px_8px_rgba(186,26,26,0.35)] hover:bg-on-error-container transition-all animate-pulse" href="tel:19008282"><span class="material-symbols-outlined text-[16px]">e911_emergency</span><span>SOS 1900 8282</span></a></div></div></div><div class="h-20 w-full px-gutter-sm lg:px-margin max-w-7xl mx-auto flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><div class="w-11 h-11 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[24px]">hearing</span></div><div class="flex flex-col"><span class="font-headline-md text-headline-md leading-none tracking-tight text-on-surface">WayEcho</span><span class="font-label-sm text-label-sm tracking-widest text-primary font-bold uppercase mt-0.5">Hear Your Way • Phố Cổ Hà Nội</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary-container font-label-md text-label-md rounded-full px-space-md py-space-xs transition-colors shadow-sm"><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="diem-den" href="#">Điểm đến</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="tour-trai-nghiem" href="#">Tour &amp; Trải nghiệm</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="dich-vu-huong-dan-vien" href="#">Dịch vụ &amp; HDV</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="dat-dich-vu" href="#">Đặt dịch vụ</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="blog-trai-nghiem" href="#">Blog &amp; Trải nghiệm</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="ban-do-am-thanh" href="#">Bản đồ âm thanh</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="tro-ly-camera-ai" href="#">Trợ lý Camera AI</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="bao-cao-su-co" href="#">Báo cáo sự cố</a><a class="text-on-surface-variant hover:text-on-surface font-label-md text-label-md px-space-sm py-space-xs transition-colors" data-path="cong-doi-tac" href="#">Cổng Đối tác</a></nav><div class="flex items-center gap-space-sm shrink-0"><button aria-label="Thông báo đối tác" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors relative" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-secondary"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-28 bg-surface min-h-[calc(100vh-280px)]"><div class="flex flex-col w-full">
+<!-- Accessibility & Verification Ribbon -->
+<section class="w-full bg-surface-container-low px-gutter-sm lg:px-margin py-space-md shadow-sm">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row md:items-center justify-between gap-space-md">
+<!-- Breadcrumb -->
+<nav aria-label="Đường dẫn trang" class="flex items-center flex-wrap gap-space-xs font-label-md text-label-md text-tertiary">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[18px]">home</span>
+          Trang chủ
+        </a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" href="#">Khám phá dịch vụ</a>
+<span class="text-outline-variant">/</span>
+<span aria-current="page" class="text-on-surface font-semibold">Phương tiện &amp; Tuyến Di Chuyển Tiếp Cận</span>
+</nav>
+<!-- Badge & Audio Assist Toolbar -->
+<div class="flex items-center flex-wrap gap-space-sm">
+<span class="inline-flex items-center gap-space-xs px-space-md py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+          QCVN 10:2014/BXD Thực Địa 36 Phố Phường
+        </span>
+<button aria-label="Phát âm thanh cẩm nang di chuyển 3 phút" class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm hover:bg-primary-container hover:text-on-primary-container transition-all shadow-sm" id="ttsButton" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary" id="ttsIcon">volume_up</span>
+<span id="ttsLabel">Nghe cẩm nang (3 phút)</span>
+</button>
+<a aria-label="Gọi khẩn cấp cứu trợ di chuyển 1900 8282" class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-error text-on-error font-label-sm text-label-sm font-bold shadow-sm hover:opacity-90 transition-opacity" href="tel:19008282">
+<span class="material-symbols-outlined text-[16px]">support_agent</span>
+<span>Hotline Dẫn Đường: 1900 8282</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Editorial Hero & Trip Finder Grid -->
+<section class="w-full px-gutter-sm lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- Left Column: Context & Route Vision -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-primary font-bold uppercase tracking-wider">Cẩm Nang Giao Thông Hòa Nhập Phố Cổ</span>
+<h1 class="font-headline-xl text-headline-xl text-on-surface leading-tight tracking-tight">
+            Di Chuyển Không Rào Cản Giữa Trái Tim Hà Nội 36 Phố Phường
+          </h1>
+<p class="font-body-lg text-body-lg text-tertiary">
+            Hệ sinh thái giao thông tiếp cận WayEcho đồng bộ hóa xe điện sàn thấp, xe buýt trợ năng, công nghệ âm thanh không gian 3D và mạng lưới dẫn đường tình nguyện, giúp người khiếm thị và người dùng xe lăn làm chủ mọi hành trình di sản.
+          </p>
+</div>
+<!-- Quick Assist Features Bar -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-sm pt-space-xs">
+<div class="p-space-md rounded-DEFAULT bg-surface-container-low flex flex-col gap-1">
+<span class="material-symbols-outlined text-primary text-[28px]">accessible_forward</span>
+<span class="font-label-md text-label-md text-on-surface">Ram Nâng Dốc Xe</span>
+<span class="font-body-sm text-body-sm text-tertiary">Độ dốc tiêu chuẩn 1:12</span>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container-low flex flex-col gap-1">
+<span class="material-symbols-outlined text-secondary text-[28px]">volume_up</span>
+<span class="font-label-md text-label-md text-on-surface">Loa Thông Báo Tuyến</span>
+<span class="font-body-sm text-body-sm text-tertiary">GPS định vị chuẩn xác</span>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container-low flex flex-col gap-1 col-span-2 sm:col-span-1">
+<span class="material-symbols-outlined text-primary text-[28px]">pets</span>
+<span class="font-label-md text-label-md text-on-surface">Chó Dẫn Đường &amp; Gậy</span>
+<span class="font-body-sm text-body-sm text-tertiary">100% Không tính phí</span>
+</div>
+</div>
+<!-- Featured Transit Image Preview -->
+<div class="relative rounded-lg overflow-hidden shadow-md group">
+<img class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A sunlit, bustling historic street in Hanoi Old Quarter where an eco-friendly electric tram with low-floor access ramp is safely boarding a visually impaired traveler with a white cane and a guide dog. Warm saffron tones, textured brick heritage background, high contrast tactile yellow paving stones on the sidewalk, gentle golden hour lighting, authentic documentary style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOB9l_AQjRUxVfK2jxzzIjJI2GSU5UDCZDrJdmMH4Z56jwpZ4TatoF2NymVwEn4_qAHTpVY7L-OfV_TII4p7tsiC7pGNvmOwW0TrxuOWxSUX3TxcxvYkMTwxdtUOsCLiXqkEsr5GcTKwZaHhHzhYO2-IDUO2fcXixwg069BbRJLUlv_qnovBu6URZsJtT5Hu6Vo9D4eJ_znbuIRV12UAP3RJMOQkHBQqRPI8dVOyMz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex items-end p-space-lg">
+<div class="flex flex-col text-on-primary">
+<span class="font-label-sm text-label-sm font-semibold uppercase tracking-widest text-primary-fixed">Thực địa kết nối di sản</span>
+<p class="font-title-lg text-title-lg font-bold">Tuyến Xe Điện Di Sản Sàn Thấp kết nối 14 đền chùa &amp; phố nghề</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Accessible Trip Planner Card -->
+<div class="lg:col-span-5 bg-surface-container rounded-lg p-space-lg lg:p-space-xl shadow-lg flex flex-col gap-space-lg">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold">
+<span class="material-symbols-outlined text-[20px]">alt_route</span>
+</div>
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Tìm Tuyến Trợ Năng</h2>
+<span class="font-body-sm text-body-sm text-tertiary">Tùy biến theo nhu cầu vận động riêng</span>
+</div>
+</div>
+<span class="px-space-sm py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">Trợ LÝ AI</span>
+</div>
+<form class="flex flex-col gap-space-md" id="accessibleRouteForm" onsubmit="event.preventDefault(); window.calculateAccessibleRoute();">
+<!-- Start point -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1" for="pickupLocation">
+<span class="material-symbols-outlined text-secondary text-[18px]">radio_button_checked</span>
+              Điểm xuất phát tại Phố Cổ
+            </label>
+<div class="relative">
+<input aria-describedby="pickupHelp" class="w-full bg-surface-container-lowest text-on-surface rounded-DEFAULT px-space-md py-space-sm font-body-md text-body-md focus:outline-none shadow-sm" id="pickupLocation" type="text" value="28 Hàng Buồm (Trung tâm điều phối)"/>
+</div>
+<span class="font-body-sm text-body-sm text-tertiary" id="pickupHelp">Hỗ trợ nhận diện giọng nói hoặc chọn từ danh sách trạm tiếp cận.</span>
+</div>
+<!-- Destination point -->
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-1" for="dropoffLocation">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+              Điểm đến mong muốn
+            </label>
+<input class="w-full bg-surface-container-lowest text-on-surface rounded-DEFAULT px-space-md py-space-sm font-body-md text-body-md focus:outline-none shadow-sm" id="dropoffLocation" placeholder="Ví dụ: Đền Ngọc Sơn, Cổng Chợ Đồng Xuân, Ô Quan Chưởng..." type="text"/>
+</div>
+<!-- Assistance Level Selector -->
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Hình thức hỗ trợ tiếp cận cần ưu tiên:</span>
+<div aria-label="Loại hỗ trợ tiếp cận" class="grid grid-cols-2 gap-space-xs" role="group">
+<label class="flex items-center gap-space-xs p-space-sm rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container-high transition-colors">
+<input checked="" class="w-4 h-4 accent-primary" name="assistType" type="checkbox" value="wheelchair"/>
+<span class="font-label-sm text-label-sm text-on-surface">Xe lăn điện/cơ (Sàn thấp)</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container-high transition-colors">
+<input checked="" class="w-4 h-4 accent-primary" name="assistType" type="checkbox" value="guide_dog"/>
+<span class="font-label-sm text-label-sm text-on-surface">Chó dẫn đường / Gậy trắng</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container-high transition-colors">
+<input class="w-4 h-4 accent-primary" name="assistType" type="checkbox" value="sighted_guide"/>
+<span class="font-label-sm text-label-sm text-on-surface">TNV dẫn bộ qua ngã tư</span>
+</label>
+<label class="flex items-center gap-space-xs p-space-sm rounded-DEFAULT bg-surface-container-lowest cursor-pointer hover:bg-surface-container-high transition-colors">
+<input class="w-4 h-4 accent-primary" name="assistType" type="checkbox" value="additional_assistance"/>
+<span class="font-label-sm text-label-sm text-on-surface">Thuyết minh âm thanh 3D</span>
+</label>
+</div>
+</div>
+<!-- Realtime Route Filter Action -->
+<button class="w-full py-space-md px-space-lg rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-bold shadow-md hover:brightness-105 active:scale-95 transition-all flex items-center justify-center gap-space-xs" type="submit">
+<span class="material-symbols-outlined text-[20px]">directions</span>
+            Tra Cứu Lộ Trình Tiếp Cận Tối Ưu
+          </button>
+</form>
+<!-- Route Result Mock Box -->
+<div class="p-space-md rounded-DEFAULT bg-surface-container-lowest flex flex-col gap-space-xs" id="routeResultBox">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">LỘ TRÌNH ĐƯỢC ĐỀ XUẤT NHANH NHẤT</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full font-semibold">100% Không Bậc Tam Cấp</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+<strong>Tuyến Xe Điện Phố Cổ Tuyến 01:</strong> Đón tại Trạm 28 Hàng Buồm → Bờ Hồ Hoàn Kiếm (Thời gian: 8 phút, tần suất 10 phút/chuyến).
+          </p>
+<div class="flex items-center gap-space-md pt-1 font-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-secondary">cloud_download</span>Ram xe dốc 8%</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px] text-primary">record_voice_over</span>Loa phát báo trạm</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Metrics & Infrastructure Overview Section -->
+<section class="w-full bg-surface-container-low px-gutter-sm lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-widest">Hạ Tầng Giao Thông Hòa Nhập</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Chỉ Số Tiếp Cận Phố Cổ Thực Tế</h2>
+</div>
+<p class="font-body-md text-body-md text-tertiary max-w-xl">
+          Được đo đạc và kiểm định trực tiếp theo tiêu chuẩn xây dựng QCVN 10:2014/BXD phối hợp cùng Hiệp hội Người Mù Quận Hoàn Kiếm.
+        </p>
+</div>
+<!-- 4 Core Metric Bento Boxes -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter-sm">
+<!-- Metric 1 -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between pb-space-md">
+<span class="w-12 h-12 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">departure_board</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold">18 Điểm Đỗ</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-lg text-display-lg text-secondary leading-none">18</span>
+<h3 class="font-title-lg text-title-lg text-on-surface pt-space-xs">Trạm Đón Tiếp Cận</h3>
+<p class="font-body-sm text-body-sm text-tertiary pt-1">Đầy đủ dốc ram 1:12, gạch dẫn hướng nổi tactile và thanh vịn tay đôi.</p>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between pb-space-md">
+<span class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">electric_bolt</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold">100% Đạt Chuẩn</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-lg text-display-lg text-on-primary-container leading-none">100%</span>
+<h3 class="font-title-lg text-title-lg text-on-surface pt-space-xs">Xe Điện Có Thuyết Minh</h3>
+<p class="font-body-sm text-body-sm text-tertiary pt-1">Loa thông minh tự kích hoạt khi qua các di tích, hỗ trợ gập xe lăn và gậy.</p>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between pb-space-md">
+<span class="w-12 h-12 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold">4 Trung Tâm</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-lg text-display-lg text-secondary leading-none">04</span>
+<h3 class="font-title-lg text-title-lg text-on-surface pt-space-xs">Trạm Trung Chuyển Lớn</h3>
+<p class="font-body-sm text-body-sm text-tertiary pt-1">Tại Hàng Buồm, Bờ Hồ Đinh Tiên Hoàng, Chợ Đồng Xuân &amp; Cửa Ô Quan Chưởng.</p>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+<div class="flex items-center justify-between pb-space-md">
+<span class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">money_off</span>
+</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant font-semibold">Miễn Phí 100%</span>
+</div>
+<div class="flex flex-col">
+<span class="font-display-lg text-display-lg text-on-primary-container leading-none">0đ</span>
+<h3 class="font-title-lg text-title-lg text-on-surface pt-space-xs">Phí Thiết Bị Trợ Năng</h3>
+<p class="font-body-sm text-body-sm text-tertiary pt-1">Không phụ thu với hành lý xe lăn, chó trợ giúp, gậy thông minh hay xe điện mini.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Transport Modes Catalog Section -->
+<section class="w-full px-gutter-sm lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col gap-space-xs max-w-3xl">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Danh Mục Phương Tiện</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Phương Thức Di Chuyển Tiếp Cận Tại Phố Cổ</h2>
+<p class="font-body-lg text-body-lg text-tertiary">
+          Lựa chọn phương thức linh hoạt theo hành trình: từ xe điện ngắm cảnh di sản, buýt đô thị sàn thấp đến xe chuyên dụng WAV và tình nguyện viên dẫn đường cá nhân.
+        </p>
+</div>
+<!-- Grid of 4 Transport Modes -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter-lg">
+<!-- Mode 1: Xe Điện Di Sản Tiếp Cận -->
+<article class="bg-surface-container-lowest rounded-lg p-space-lg shadow-md flex flex-col justify-between gap-space-lg hover:-translate-y-1 transition-transform">
+<div class="flex flex-col gap-space-md">
+<div class="relative rounded-DEFAULT overflow-hidden h-60">
+<img class="w-full h-full object-cover" data-alt="An open-air Hanoi Old Quarter electric heritage tourist tram with specially installed hydraulic ramp lowered to ground level. Clean sunlit street scene, golden heritage architecture, visually impaired passenger boarding comfortably with driver assisting with utmost courtesy. Modern warm aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoq5Re0L8rtL0wpNQqvnXYpbki_wKkrKkFRIlgLu84gTHI4ssxjkWah-IiqVsdo6eyswtU2FqBEy8J_aFHE59DG10qz7tfQfAgiZ1PIdXyjbelmB2Q3UrrLqWPNjstlMKJHbdSTWKnSg4todFJCr2nk7TAXUfz1Wgehxz5WnPjkn4vEn6mWsaPZFwECDYXzSXVmb-yl8gwkLGRyAxobWlD-Pa5usJ4w0HEy2jkR_yz"/>
+<span class="absolute top-3 left-3 px-space-md py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold shadow-sm">
+                Ưu Tiên Số 1 Di Sản
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">1. Xe Điện Di Sản Phố Cổ Tiếp Cận</h3>
+<span class="material-symbols-outlined text-primary text-[28px]">electric_car</span>
+</div>
+<p class="font-body-md text-body-md text-tertiary">
+              Tuyến xe sinh thái chạy êm ái xuyên qua các ngõ phố cổ nhỏ. Xe được trang bị ram dốc xếp mở nhanh, loa phát âm thanh 3D tự động mô tả lịch sử các đình miếu, cùng tài xế được đào tạo nghiệp vụ hỗ trợ đón trả khách khiếm thị tận cửa.
+            </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Ram đón xe lăn</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">GPS Audio 3D</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Lộ trình 14 phố nghề</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-label-md text-label-md text-secondary font-bold">15.000đ / lượt đi</span>
+<button class="px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-sm text-label-sm hover:brightness-110 transition-all flex items-center gap-1 shadow-sm" onclick="alert('Đã lưu thông tin tuyến xe điện tiếp cận vào hành trình WayEcho của bạn!')" type="button">
+<span class="material-symbols-outlined text-[16px]">bookmark_add</span>
+              Đặt Chỗ Trước &amp; Lộ Trình
+            </button>
+</div>
+</article>
+<!-- Mode 2: Xe Buýt Sàn Thấp CNG & Đô Thị -->
+<article class="bg-surface-container-lowest rounded-lg p-space-lg shadow-md flex flex-col justify-between gap-space-lg hover:-translate-y-1 transition-transform">
+<div class="flex flex-col gap-space-md">
+<div class="relative rounded-DEFAULT overflow-hidden h-60">
+<img class="w-full h-full object-cover" data-alt="Hanoi city low-floor modern accessible bus stopped at Dong Kinh Nghia Thuc square. Bright high-contrast LED sign showing Route 09, tactile paving on sidewalk leading right to the kneeling bus entrance, friendly passenger boarding with ease, clean morning sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4bYN1QwW-JxGngZ8zDK8tfYCfpG3_ffDY1yRqws6HreahbS6t3ikDwmehX883CCZYO_1yEfA3z1eD7TgwAXzFVJ9bjEaRTta6aABEc5jDv_4sGa0yYkod8n9zvygx2uXRBsPy_nrvQukvkfKh9boZk6xjzyLHF3bcUFCIdD64-HuxQg6kWSd5lwDhgY_QOGGxrOxuxr7Dk9hjis0PQgt4E1-pQGsSKxRBJv6bzFTp"/>
+<span class="absolute top-3 left-3 px-space-md py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+                Kết Nối Ngoại Ô &amp; Trung Tâm
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">2. Xe Buýt Sàn Thấp Đô Thị (Tuyến 09, 36, 01)</h3>
+<span class="material-symbols-outlined text-secondary text-[28px]">directions_bus</span>
+</div>
+<p class="font-body-md text-body-md text-tertiary">
+              Các tuyến xe buýt chạy qua trục bao quanh Hồ Hoàn Kiếm và Chợ Đồng Xuân. Trang bị chức năng quỳ sàn (kneeling bus), nút bấm chuông nổi chữ Braille báo xuống bến, và bảng LED tương phản cao kèm loa phát âm chuẩn giọng Bắc.
+            </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Sàn phẳng Kneeling</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Chuông nổi Braille</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Thẻ xe buýt miễn phí</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-label-md text-label-md text-secondary font-bold">7.000đ / lượt (Miễn phí NKT)</span>
+<a class="px-space-md py-space-xs rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-all flex items-center gap-1 shadow-sm" href="#safe-transit-hubs">
+<span class="material-symbols-outlined text-[16px]">map</span>
+              Xem Bến Tiếp Cận
+            </a>
+</div>
+</article>
+<!-- Mode 3: Xe Ô Tô Chuyên Dụng WAV -->
+<article class="bg-surface-container-lowest rounded-lg p-space-lg shadow-md flex flex-col justify-between gap-space-lg hover:-translate-y-1 transition-transform">
+<div class="flex flex-col gap-space-md">
+<div class="relative rounded-DEFAULT overflow-hidden h-60">
+<img class="w-full h-full object-cover" data-alt="Rear-loading wheelchair accessible vehicle (WAV) van parked on Hang Chieu street Hanoi with sliding doors open and aluminum ramp extended smoothly to ground. Polite driver wearing uniform assisting customer, warm cream ambient colors, historic Hanoi Old Quarter street scene in background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRCnOk4e2DqUp1OKNM7t18uMgizdD98u3VsnR6uB0VGZmcImrInxepNW6J8U_W8mt77oT2aLTFfqNwFcOQrbafsWmUK5XmgfqvbTetrgTNqxLWP_G8y6A17uQabIQztS4F-hxra_VuUuxbzLdyN2ZuxRpd9IzAVm-Uq5214eAs2ibkIOu8bn-OKMHixa1MVGkis68pAj6SDcmOEHPE-7ulu1HAynq5yzVa8xXsvtW2"/>
+<span class="absolute top-3 left-3 px-space-md py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold shadow-sm">
+                Đón Tận Nơi Cửa Khách Sạn
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">3. Xe Ô Tô Trợ Năng Chuyên Dụng (WAV)</h3>
+<span class="material-symbols-outlined text-primary text-[28px]">airport_shuttle</span>
+</div>
+<p class="font-body-md text-body-md text-tertiary">
+              Dịch vụ xe ô tô chuyên dụng liên kết mạng lưới WayEcho với cửa trượt tự động, khóa sàn an toàn cho xe lăn điện loại nặng, và khoang hành lý chuyên để gậy định vị. Tài xế được cấp chứng nhận kỹ năng Sighted Guide cơ bản.
+            </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Khóa sàn 4 điểm</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Tài xế Sighted Guide</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Đón trả theo giờ hẹn</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-label-md text-label-md text-secondary font-bold">Đặt theo cuốc / trọn gói</span>
+<a class="px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-sm text-label-sm hover:brightness-110 transition-all flex items-center gap-1 shadow-sm" href="tel:19008282">
+<span class="material-symbols-outlined text-[16px]">call</span>
+              Điều Xe Qua Tổng Đài
+            </a>
+</div>
+</article>
+<!-- Mode 4: Đội Tình Nguyện Viên Sighted Guide Dẫn Bộ -->
+<article class="bg-surface-container-lowest rounded-lg p-space-lg shadow-md flex flex-col justify-between gap-space-lg hover:-translate-y-1 transition-transform">
+<div class="flex flex-col gap-space-md">
+<div class="relative rounded-DEFAULT overflow-hidden h-60">
+<img class="w-full h-full object-cover" data-alt="Trained local Hanoi volunteer wearing a yellow WayEcho vest walking side-by-side using professional human guide technique with a visually impaired traveler through an atmospheric narrow alley in Hanoi Old Quarter, smiling and sharing historical details. Natural warm light, heritage texture, high accessibility safety." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMcrrAMne2NSNUmVnCx8PaovkIUJW5Rkqn0rrgiluSCsP-E-x-yhCfqXwCh-Nvt2BhGsn6BUVEV8nnimT1pbTRk5MqrERdJ36_uj1hfdVd2zxAx95LaFkIWFueG7rMdn9ICTRqSCKgWEMC7Y2PxH60WchHWFSz5SRzzMYrdmSlxsexzz6oT9V79zJ-K8qtllVl3oZBfkeVln72G789SLjTB8zJ83oOMtdPZVz7255R"/>
+<span class="absolute top-3 left-3 px-space-md py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold shadow-sm">
+                Đồng Hành Trực Tiếp 1:1
+              </span>
+</div>
+<div class="flex items-center justify-between">
+<h3 class="font-headline-md text-headline-md text-on-surface">4. TNV Dẫn Bộ Qua Đường &amp; Ngõ Hẹp</h3>
+<span class="material-symbols-outlined text-secondary text-[28px]">directions_walk</span>
+</div>
+<p class="font-body-md text-body-md text-tertiary">
+              Đội hình tình nguyện viên sinh viên và người dân địa phương trực tại 4 chốt trung chuyển, sẵn sàng hỗ trợ nắm tay dẫn qua các nút giao thông phức tạp, luồn lách qua ngõ sâu Hàng Buồm, Mã Mây hay Chợ Đêm an toàn tuyệt đối.
+            </p>
+<div class="flex flex-wrap gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Kỹ thuật Human Guide</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Miễn phí 100%</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Phản ứng nhanh dưới 5 phút</span>
+</div>
+</div>
+<div class="flex items-center justify-between pt-space-sm">
+<span class="font-label-md text-label-md text-secondary font-bold">Dịch vụ phi lợi nhuận</span>
+<button class="px-space-md py-space-xs rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm hover:bg-surface-container-high transition-all flex items-center gap-1 shadow-sm" onclick="alert('Đã gửi yêu cầu kết nối tình nguyện viên đón bạn tại trạm gần nhất!')" type="button">
+<span class="material-symbols-outlined text-[16px]">hail</span>
+              Yêu Cầu TNV Ngay
+            </button>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- Safe Pickup & Transit Hubs Section -->
+<section class="w-full bg-surface-container-low px-gutter-sm lg:px-margin py-space-xl" id="safe-transit-hubs">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-widest">Mạng Lưới Điểm Đến An Toàn</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">4 Trạm Trung Chuyển Đạt Chuẩn Tiếp Cận Vàng</h2>
+</div>
+<p class="font-body-md text-body-md text-tertiary max-w-xl">
+          Được gắn mã âm thanh không gian WayEcho Beacon và trang bị hạ tầng vật lý hỗ trợ sạc điện, gạch dẫn đường và phòng nghỉ ngơi xúc giác.
+        </p>
+</div>
+<!-- Hubs Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-sm">
+<!-- Hub 1: Dong Kinh Nghia Thuc -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-label-sm">01</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">flag</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold pt-space-xs">Quảng Trường Đông Kinh Nghĩa Thục</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Nối thẳng phố đi bộ Hồ Gươm và trạm trung chuyển xe buýt số 09. Toàn bộ vỉa hè được hạ dốc đạt chuẩn 1:12, có gạch xúc giác xúc giác màu vàng cảnh báo tương phản cao.
+            </p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Nhân viên trợ năng trực 24/7
+            </div>
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Khu vực đón xe điện chuyên dụng
+            </div>
+</div>
+</div>
+<!-- Hub 2: 28 Hang Buom -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-label-sm">02</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">home_repair_service</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold pt-space-xs">Trung Tâm 28 Hàng Buồm (Tổng Trạm)</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Trạm điều phối kỹ thuật lớn nhất Phố Cổ. Trang bị phòng nghỉ xúc giác có điều hòa, trạm sạc xe lăn điện tốc độ cao miễn phí, quầy đổi mượn gậy thông minh âm thanh.
+            </p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Sạc pin xe lăn miễn phí
+            </div>
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Cho mượn gậy âm thanh &amp; GPS
+            </div>
+</div>
+</div>
+<!-- Hub 3: O Quan Chuong -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-label-sm">03</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">castle</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold pt-space-xs">Cửa Ô Quan Chưởng (Phố Hàng Chiếu)</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Cửa ngõ di sản phía Đông thành cổ. Lòng đường và vỉa hè được san phẳng đồng mức, thuận lợi để các dòng xe ô tô WAV và xe điện lớn đón trả du khách tham quan.
+            </p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Mặt đường không bậc tam cấp
+            </div>
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Mã QR âm thanh lịch sử cửa ô
+            </div>
+</div>
+</div>
+<!-- Hub 4: South Gate Dong Xuan Market -->
+<div class="p-space-lg rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="w-8 h-8 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center font-bold text-label-sm">04</span>
+<span class="material-symbols-outlined text-secondary text-[24px]">storefront</span>
+</div>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold pt-space-xs">Cổng Phía Nam Chợ Đồng Xuân</h3>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Khu thương mại sầm uất với lối vào dốc trượt tiêu chuẩn, vạch qua đường có đèn âm thanh báo hiệu tiếng bíp khi qua đường, kết nối thẳng tuyến xe điện ẩm thực đêm.
+            </p>
+</div>
+<div class="flex flex-col gap-2 pt-space-xs">
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Vạch qua đường có tín hiệu bíp
+            </div>
+<div class="p-space-xs rounded bg-surface-container font-label-sm text-label-sm text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+              Lối thoát an toàn rộng 2m
+            </div>
+</div>
+</div>
+</div>
+<!-- Integrated Map Card -->
+<div class="w-full rounded-lg overflow-hidden shadow-md bg-surface-container-lowest p-space-md flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[24px]">explore</span>
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Bản Đồ Hạ Tầng Tuyến Xe &amp; Vỉa Hè Tiếp Cận</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary">Cập nhật lúc 08:30 hôm nay</span>
+</div>
+<div class="w-full h-80 bg-cover bg-center rounded-DEFAULT shadow-inner relative flex items-center justify-center" data-location="Hoan Kiem Lake, Hanoi, Vietnam" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBxs7n7qgFbpzHQwCT3R0ETBxUSbPdWqqckKiYdOHOTN8gIW_VfkfkpKJhuG0VpZnj3rU9J83axti5KRfCi1-_DTXB33C5l0d98p36H-bMFiBgbUNi81S1Or1W7dH3og2UjgX3TQY0ClWpBwnM4OAv_S83OfRNPFCoL_sSyGVv1mR2cD4opj81OCXos-EDvz_PYQSTTjsWLbD3GyT-C-lS06Ycfpbqrdcr_IUV7vbbN')">
+<div class="bg-surface/90 backdrop-blur-md p-space-md rounded-DEFAULT max-w-md mx-4 shadow-lg text-center flex flex-col gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[32px] mx-auto">spatial_audio</span>
+<span class="font-headline-md text-headline-md text-on-surface">Định Vị Không Gian 3D Đang Bật</span>
+<p class="font-body-sm text-body-sm text-tertiary">
+              Kéo hoặc di chuyển thiết bị để nghe định hướng âm thanh từ 18 trạm tiếp cận quanh khu vực Phố Cổ.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Safety Tips & Visual Impairment Guidelines -->
+<section class="w-full px-gutter-sm lg:px-margin py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Left Content -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Cẩm Nang An Toàn &amp; Quyền Lợi</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Mẹo Di Chuyển Dành Cho Du Khách Khiếm Thị</h2>
+<p class="font-body-md text-body-md text-tertiary">
+          Luật Người Khuyết Tật Việt Nam và quy chế Phố Cổ Hà Nội đảm bảo quyền được ưu tiên tuyệt đối khi tiếp cận giao thông công cộng. Hãy ghi nhớ các lưu ý sau để có chuyến đi trọn vẹn:
+        </p>
+<!-- Tip Accordion / List -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="p-space-md rounded-DEFAULT bg-surface-container flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h4 class="font-title-lg text-title-lg text-on-surface font-bold">Nhận diện chuông xe điện đặc biệt</h4>
+<p class="font-body-sm text-body-sm text-tertiary">
+                Xe điện tiếp cận WayEcho sử dụng âm thanh chuông gõ đồng truyền thống tần số 500Hz ấm áp, không gây giật mình và dễ dàng phân biệt giữa tiếng động cơ xe máy.
+              </p>
+</div>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h4 class="font-title-lg text-title-lg text-on-surface font-bold">Quyền ưu tiên xếp dỡ thiết bị trợ năng</h4>
+<p class="font-body-sm text-body-sm text-tertiary">
+                Hành khách sử dụng gậy định vị, xe lăn hoặc chó dẫn đường được nhân viên nhà ga và lái xe hỗ trợ lên xuống trước tiên tại mọi điểm dừng công cộng.
+              </p>
+</div>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">photo_camera_front</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h4 class="font-title-lg text-title-lg text-on-surface font-bold">Kích hoạt Camera AI quét vật cản vỉa hè</h4>
+<p class="font-body-sm text-body-sm text-tertiary">
+                Bật tính năng "Trợ lý Camera AI" trên ứng dụng WayEcho khi đi bộ: hệ thống sẽ phát âm cảnh báo vật cản như bàn ghế lấn chiếm, xe máy đỗ chéo hoặc bậc thềm cao.
+              </p>
+</div>
+</div>
+<div class="p-space-md rounded-DEFAULT bg-surface-container flex items-start gap-space-md shadow-sm">
+<div class="w-10 h-10 rounded-full bg-error-container text-on-error-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">sos</span>
+</div>
+<div class="flex flex-col gap-0.5">
+<h4 class="font-title-lg text-title-lg text-on-surface font-bold">Phím gọi SOS trực ban khi gặp cản trở</h4>
+<p class="font-body-sm text-body-sm text-tertiary">
+                Nhấn giữ nút âm lượng 3 giây hoặc gọi 1900 8282 nếu vỉa hè bị phong tỏa; đội cứu trợ xe lưu động sẽ có mặt sau tối đa 7 phút để giải tỏa lối đi an toàn.
+              </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Visual Feature -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="relative rounded-lg overflow-hidden shadow-xl">
+<img class="w-full h-[460px] object-cover" data-alt="Close up photograph showing high-contrast yellow tactile guidance paving stones laid along Hanoi historic brick sidewalk, leading smoothly onto a kneeling city electric bus ramp. The textures of the ground are clear and crisp with soft warm afternoon illumination, illustrating high safety standards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6fCYKJYejJM6rbwmq_bb1yfiTKP9mJrJtrswjqx196XJKoFZbei5oY7Nc3uWGcXMdKfcc21srRPutF7dLbP66ei4mY8dmDTNPiCt_Ne2D0S9vv8rcW2SxDsXEx9u5t7pqbOJTdbovJmlkA7IlkMOQ-ZBce3xb1B7Nvl43KFziO5S1kwmDwPSaHsGvGOrBKO8WnPYgkgQJtSzYPe21-H1vt-4577uRgaXd2jKIfU15"/>
+<div class="absolute bottom-4 left-4 right-4 bg-surface/90 backdrop-blur-md p-space-md rounded-DEFAULT shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px]">handshake</span>
+<div class="flex flex-col">
+<span class="font-title-lg text-title-lg text-on-surface font-bold">Đồng Hành An Tâm 24/7</span>
+<span class="font-body-sm text-body-sm text-tertiary">Hơn 300 lượt hỗ trợ thành công mỗi tuần</span>
+</div>
+</div>
+<a class="px-space-md py-space-xs rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold shadow-sm hover:brightness-105" href="tel:19008282">
+              Gọi Trực Ban
+            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Action Banner -->
+<section class="w-full px-gutter-sm lg:px-margin pb-space-xl">
+<div class="max-w-7xl mx-auto rounded-lg bg-surface-container p-space-lg lg:p-space-xl shadow-md flex flex-col md:flex-row items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs text-center md:text-left">
+<h3 class="font-headline-md text-headline-md text-on-surface">Bạn Cần Lên Kế Hoạch Chuyến Đi Riêng Cho Đoàn?</h3>
+<p class="font-body-md text-body-md text-tertiary">
+          WayEcho hỗ trợ bố trí đoàn xe điện khép kín kèm hướng dẫn viên thuyết minh bằng ngôn ngữ ký hiệu hoặc giọng đọc chuyên biệt.
+        </p>
+</div>
+<div class="flex flex-wrap items-center justify-center gap-space-sm shrink-0">
+<button class="px-space-xl py-space-md rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-bold shadow-md hover:brightness-105 transition-all" onclick="alert('Đang mở cổng đăng ký xe đoàn tiếp cận. Vui lòng chuẩn bị thông tin điểm đón!')" type="button">
+          Đăng Ký Đón Đoàn Xe Lăn &amp; Khiếm Thị
+        </button>
+<a class="px-space-lg py-space-md rounded-full bg-surface-container-highest text-on-surface font-label-md text-label-md hover:bg-surface-container-low transition-colors" href="tel:19008282">
+          Tổng Đài 1900 8282
+        </a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // TTS Voice simulation
+  let isPlayingTTS = false;
+  const ttsButton = document.getElementById('ttsButton');
+  const ttsLabel = document.getElementById('ttsLabel');
+  const ttsIcon = document.getElementById('ttsIcon');
+
+  if (ttsButton) {
+    ttsButton.addEventListener('click', function() {
+      if (!isPlayingTTS) {
+        isPlayingTTS = true;
+        ttsLabel.textContent = 'Đang phát cẩm nang...';
+        ttsIcon.textContent = 'pause_circle';
+        ttsButton.classList.add('bg-primary-container', 'text-on-primary-container');
+        
+        if ('speechSynthesis' in window) {
+          const utterance = new SpeechSynthesisUtterance("Chào mừng bạn đến với Cẩm nang Phương tiện và Tuyến di chuyển Tiếp cận Phố Cổ Hà Nội của WayEcho. Tại đây, toàn bộ các tuyến xe điện và xe buýt nhanh đều tuân thủ quy chuẩn QCVN 10 2014, trang bị dốc ram xe lăn và thuyết minh âm thanh tự động.");
+          utterance.lang = 'vi-VN';
+          utterance.onend = resetTTS;
+          utterance.onerror = resetTTS;
+          window.speechSynthesis.speak(utterance);
+        } else {
+          setTimeout(resetTTS, 4000);
+        }
+      } else {
+        resetTTS();
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+        }
+      }
+    });
+  }
+
+  function resetTTS() {
+    isPlayingTTS = false;
+    ttsLabel.textContent = 'Nghe cẩm nang (3 phút)';
+    ttsIcon.textContent = 'volume_up';
+    ttsButton.classList.remove('bg-primary-container', 'text-on-primary-container');
+  }
+
+  // Interactive Route Calculator Mock
+  window.calculateAccessibleRoute = function() {
+    const pickup = document.getElementById('pickupLocation').value;
+    const dropoff = document.getElementById('dropoffLocation').value || 'Bờ Hồ Hoàn Kiếm';
+    const resultBox = document.getElementById('routeResultBox');
+    
+    resultBox.innerHTML = `
+      <div class="flex items-center justify-between">
+        <span class="font-label-sm text-label-sm text-primary font-bold">LỘ TRÌNH ĐÃ TÍNH TOÁN THEO YÊU CẦU</span>
+        <span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed px-2 py-0.5 rounded-full font-semibold">An Toàn Tuyệt Đối</span>
+      </div>
+      <p class="font-body-sm text-body-sm text-on-surface">
+        <strong>Từ:</strong> ${pickup} &rarr; <strong>Đến:</strong> ${dropoff}.
+      </p>
+      <div class="p-space-xs rounded bg-surface-container font-body-sm text-body-sm text-on-surface-variant flex flex-col gap-1">
+        <span>&bull; Xe điện số 02 đón sau 4 phút tại điểm đón số 2.</span>
+        <span>&bull; Vỉa hè nối liền không bậc, độ dốc ram tối đa 8.3%.</span>
+        <span>&bull; Đã báo trước tài xế hỗ trợ mở ram dốc tự động.</span>
+      </div>
+    `;
+    resultBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  };
+</script></main><footer class="w-full bg-surface-container-low text-on-surface-variant mt-margin-md shadow-[0_-1px_12px_rgba(0,0,0,0.03)]"><div class="max-w-7xl mx-auto px-gutter-sm lg:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">hearing</span></div><span class="font-headline-md text-headline-md text-on-surface">WayEcho</span></div><p class="font-body-sm text-body-sm text-tertiary">Hệ sinh thái du lịch tiếp cận Phố Cổ Hà Nội. Chuyển đổi di sản thành hành trình đa giác quan, hòa nhập và thân thiện với người khiếm thị, người đi xe lăn và người cao tuổi.</p><div class="flex flex-wrap gap-space-xs pt-space-xs"><span class="px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-semibold">WCAG 2.2 AAA</span><span class="px-space-sm py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold">QCVN 10:2014/BXD</span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg text-on-surface">Mạng lưới 36 Phố Phường</h3><p class="font-body-sm text-body-sm text-tertiary">Liên kết hơn 120 điểm di tích, thương gia phố nghề, quán ẩm thực và bảo tàng tiếp cận đạt chuẩn gắn mã xúc giác &amp; Beacon âm thanh nổi 3D.</p><ul class="font-body-sm text-body-sm space-y-space-xs text-on-surface-variant"><li>• Tuyến Hàng Buồm - Mã Mây - Tạ Hiện</li><li>• Trục Hàng Bạc - Hàng Đào - Đồng Xuân</li><li>• Không gian Bờ Hồ Hoàn Kiếm &amp; Đền Ngọc Sơn</li><li>• Trạm xe điện hỗ trợ tiếp cận chuyên dụng</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg text-on-surface">Điều Phối &amp; Cứu Trợ SOS</h3><div class="p-space-md rounded-lg bg-surface-container flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs text-error font-bold font-label-md text-label-md"><span class="material-symbols-outlined text-[18px]">fmd_good</span>Trạm 28 Hàng Buồm, Hoàn Kiếm, HN</div><p class="font-body-sm text-body-sm text-tertiary">Trực ban phản ứng nhanh, kỹ thuật viên hỗ trợ xe lăn, hướng dẫn viên ngôn ngữ ký hiệu và y tế sơ cấp 24/7.</p><a class="inline-flex items-center gap-space-xs font-label-md text-label-md text-error hover:underline mt-space-xs" href="tel:19008282"><span class="material-symbols-outlined text-[18px]">call</span>Hotline Cứu Trợ: 1900 8282</a></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-lg text-title-lg text-on-surface">Hạ Tầng &amp; Pháp Lý</h3><p class="font-body-sm text-body-sm text-tertiary">Được vận hành theo Quy chuẩn kỹ thuật quốc gia xây dựng công trình đảm bảo người khuyết tật tiếp cận sử dụng (QCVN 10:2014/BXD) và Tiêu chuẩn trải nghiệm số toàn cầu W3C WCAG 2.2 AAA.</p><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">verified</span>Bảo trợ: UBND Quận Hoàn Kiếm</span><span class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary">verified_user</span>Chứng nhận Du lịch Hòa nhập UNESCO</span></div></div></div><div class="mt-space-xl pt-space-md border-t-0 flex flex-col sm:flex-row items-center justify-between gap-space-md font-label-sm text-label-sm text-tertiary"><p>© 2025 WayEcho - Bản quyền thuộc Dự án Du lịch Tiếp cận Phố Cổ Hà Nội.</p><div class="flex items-center gap-space-md"><a class="hover:text-on-surface transition-colors" href="#">Điều khoản dịch vụ</a><a class="hover:text-on-surface transition-colors" href="#">Chính sách trợ năng</a><a class="hover:text-on-surface transition-colors" href="#">Đăng ký kiểm định điểm đến</a></div></div></div></footer></body></html>

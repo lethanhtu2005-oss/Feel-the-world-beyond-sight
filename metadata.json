@@ -1,0 +1,7 @@
+{
+  "name": "WayEcho",
+  "description": "Nền tảng du lịch tiếp cận cho người mù và người nhìn kém tại Hà Nội",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

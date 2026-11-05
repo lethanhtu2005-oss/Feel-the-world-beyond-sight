@@ -1,0 +1,5 @@
+import InfoPage from "@/components/InfoPage";
+import {pageMetadata} from "@/lib/seo";
+import {accessibilitySections} from "@/data/legalContent";
+export const metadata=pageMetadata("Tuyên bố tiếp cận WayEcho","Định hướng thiết kế tiếp cận cho người khiếm thị, giới hạn và cơ chế tiếp nhận phản hồi.","/accessibility");
+export default function AccessibilityPage(){return <InfoPage eyebrow="WAYECHO ACCESSIBILITY STATEMENT" title="Tuyên bố tiếp cận" subtitle="Thiết kế cho khả năng tiếp cận · Công bằng trong trải nghiệm số · Lấy người dùng làm trung tâm" intro="WayEcho được xây dựng với mục tiêu tạo ra trải nghiệm du lịch số dễ tiếp cận hơn với người khiếm thị và người có thị lực hạn chế. Khả năng tiếp cận là một định hướng xuyên suốt trong quá trình phát triển sản phẩm, không chỉ là tính năng bổ sung." sections={accessibilitySections} notice="WayEcho đang ở giai đoạn Prototype. Tuyên bố này thể hiện định hướng phát triển, không phải cam kết đã đáp ứng mọi tiêu chuẩn tiếp cận hoặc hỗ trợ mọi nhu cầu trong thực tế."/>}

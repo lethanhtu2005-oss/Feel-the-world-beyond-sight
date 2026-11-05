@@ -1,0 +1,250 @@
+{
+  "intro": [
+    {
+      "type": "hero",
+      "text": "WAYECHO – Feel the world beyond sight\n*Cảm nhận thế giới vượt ngoài tầm nhìn.*"
+    },
+    {
+      "type": "h2",
+      "text": "WayEcho là gì?"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho là dự án phát triển giải pháp công nghệ số trong lĩnh vực du lịch tiếp cận, hướng đến người khiếm thị, bao gồm người mù và người nhìn kém. Dự án được thực hiện bởi một nhóm sinh viên Trường Đại học Phenikaa, với Phố Cổ Hà Nội là địa điểm đầu tiên mà chúng tôi lựa chọn để bắt đầu hành trình của mình."
+    },
+    {
+      "type": "p",
+      "text": "WayEcho hiện đang ở giai đoạn xây dựng bản mô phỏng (prototype). Chúng tôi muốn chia sẻ rõ điều này ngay từ đầu để bạn có thể hiểu đúng về dự án: các dịch vụ, mức giá và thông tin về khả năng tiếp cận được hiển thị trên trang web hiện chỉ là dữ liệu minh họa, chưa đại diện cho những dịch vụ đang được triển khai trên thực tế."
+    },
+    {
+      "type": "h2",
+      "text": "Vì sao chúng tôi bắt đầu?"
+    },
+    {
+      "type": "p",
+      "text": "Du lịch không đơn thuần là hành trình đến một vùng đất mới. Đó còn là cơ hội để khám phá một nền văn hóa, thưởng thức món ăn đặc trưng, lắng nghe nhịp sống của những con phố và lưu giữ những trải nghiệm đáng nhớ. Thế nhưng, đối với nhiều người khiếm thị, việc bắt đầu một chuyến đi đôi khi đi kèm với không ít băn khoăn: Con ngõ này có thuận tiện để di chuyển không? Điểm hẹn nằm ở đâu? Quán ăn có nhân viên sẵn sàng hỗ trợ đọc thực đơn không? Liệu mình có thể chủ động khám phá nơi đó theo cách mong muốn?"
+    },
+    {
+      "type": "p",
+      "text": "Khi những thông tin cần thiết còn thiếu, khó tìm kiếm hoặc chưa được trình bày theo cách dễ tiếp cận, việc lên kế hoạch cho một chuyến đi cũng trở nên khó khăn hơn. Không ít trải nghiệm vì thế có thể bị bỏ lỡ ngay từ khi còn chưa bắt đầu."
+    },
+    {
+      "type": "p",
+      "text": "Là những sinh viên đang tìm kiếm cách ứng dụng công nghệ vào đời sống, chúng tôi đã đặt ra một câu hỏi: **Liệu công nghệ có thể giúp người khiếm thị chủ động tìm hiểu, hình dung và chuẩn bị cho hành trình khám phá của chính mình trước khi bước chân ra khỏi nhà?**"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho ra đời từ câu hỏi ấy. Đây là câu trả lời đầu tiên của chúng tôi – một khởi đầu còn khiêm tốn nhưng chứa đựng mong muốn góp phần mở ra nhiều cơ hội trải nghiệm hơn cho cộng đồng người khiếm thị."
+    },
+    {
+      "type": "h2",
+      "text": "Chúng tôi muốn thử điều gì?"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho được xây dựng với mong muốn mang đến một cách tiếp cận du lịch gần gũi, dễ tiếp cận và tôn trọng sự chủ động của mỗi người. Thông qua bản mô phỏng, chúng tôi tập trung thử nghiệm những định hướng sau:"
+    },
+    {
+      "type": "bold",
+      "text": "Thông tin rõ ràng, dễ tiếp cận."
+    },
+    {
+      "type": "p",
+      "text": "Mỗi điểm đến được giới thiệu bằng những nội dung ngắn gọn, cụ thể và dễ hình dung, đồng thời hướng tới khả năng tương thích với trình đọc màn hình. Thay vì chỉ cung cấp tên gọi hay hình ảnh, chúng tôi muốn giúp người dùng tìm hiểu sâu hơn về đặc điểm không gian, lối đi, điều kiện di chuyển và những trở ngại có thể gặp phải tại điểm đến."
+    },
+    {
+      "type": "bold",
+      "text": "Khám phá thế giới bằng nhiều giác quan."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi tin rằng vẻ đẹp của một vùng đất không chỉ được cảm nhận qua thị giác. Một con phố cổ có thể trở nên đáng nhớ qua tiếng rao hàng, tiếng bước chân và nhịp sống nhộn nhịp. Một món ăn có thể lưu lại dấu ấn qua hương thơm và hương vị đặc trưng. Một ngôi đình có thể được cảm nhận qua chất liệu gỗ, kết cấu mái và những câu chuyện văn hóa, lịch sử gắn liền với nơi ấy."
+    },
+    {
+      "type": "p",
+      "text": "Vì vậy, WayEcho mong muốn giới thiệu các điểm đến theo hướng giàu tính mô tả, khơi gợi những trải nghiệm bằng âm thanh, xúc giác, hương vị và cảm nhận cá nhân."
+    },
+    {
+      "type": "bold",
+      "text": "Hỗ trợ di chuyển và kết nối đồng hành."
+    },
+    {
+      "type": "p",
+      "text": "Trong bản mô phỏng, chúng tôi thử nghiệm cách người dùng tìm kiếm phương tiện di chuyển, lựa chọn điểm đón, gửi yêu cầu hỗ trợ và kết nối với người đồng hành khi cần thiết. Những thao tác này được định hướng để có thể sử dụng thuận tiện hơn thông qua bàn phím và trình đọc màn hình."
+    },
+    {
+      "type": "bold",
+      "text": "Tôn trọng sự chủ động của người trải nghiệm."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi hiểu rằng mỗi người có nhu cầu và cách khám phá khác nhau. Người đồng hành có thể hỗ trợ khi được yêu cầu, nhưng không thay thế quyền quyết định của người trải nghiệm. Từ việc lựa chọn điểm đến, sắp xếp lịch trình đến quyết định cách tận hưởng chuyến đi, mọi lựa chọn đều thuộc về chính người dùng."
+    },
+    {
+      "type": "h2",
+      "text": "Chúng tôi đang ở đâu trên hành trình?"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho hiện vẫn đang ở những bước khởi đầu. Đây là sản phẩm học tập và nghiên cứu do nhóm sinh viên thực hiện, vì vậy chúng tôi ý thức rõ những giới hạn của dự án ở thời điểm hiện tại."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi chưa có sự hợp tác chính thức với các tổ chức hay doanh nghiệp, đồng thời chưa tiến hành khảo sát thực địa trên diện rộng để xác nhận mức độ tiếp cận của từng địa điểm. Do đó, những thông tin hoặc nhãn đánh giá như “Tiếp cận tốt” xuất hiện trên trang web chỉ nhằm minh họa cách dữ liệu có thể được trình bày trong tương lai, không phải kết quả đánh giá thực tế."
+    },
+    {
+      "type": "p",
+      "text": "Trong chặng đường tiếp theo, chúng tôi mong muốn được lắng nghe ý kiến từ cộng đồng người khiếm thị, trực tiếp khảo sát từng tuyến phố và điểm đến, kết nối với các tổ chức liên quan cũng như những cơ sở dịch vụ địa phương. Từ đó, WayEcho có thể từng bước hoàn thiện dựa trên nhu cầu thực tế và trải nghiệm của chính người sử dụng."
+    },
+    {
+      "type": "p",
+      "text": "Nếu bạn là người khiếm thị, người đang làm việc hoặc đồng hành cùng cộng đồng người khiếm thị, hay là chủ một cơ sở dịch vụ mong muốn xây dựng môi trường thân thiện hơn với du khách, chúng tôi luôn trân trọng những chia sẻ và góp ý từ bạn."
+    },
+    {
+      "type": "h2",
+      "text": "Lời nhắn từ nhóm"
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi không thể thay thế đôi mắt, cũng không dám khẳng định rằng mình có thể xóa bỏ mọi rào cản trong hành trình du lịch. Nhưng chúng tôi tin rằng một thông tin rõ ràng, một lời mô tả chu đáo hay một sự đồng hành chân thành đều có thể giúp chuyến đi trở nên dễ dàng và bớt đi những lo ngại."
+    },
+    {
+      "type": "p",
+      "text": "Với WayEcho, điều quan trọng không chỉ là giúp một người tìm được điểm đến, mà còn là góp phần để họ cảm nhận được vẻ đẹp, câu chuyện và hơi thở cuộc sống ẩn chứa trong mỗi hành trình."
+    },
+    {
+      "type": "bold",
+      "text": "Bởi thế giới không chỉ được nhìn thấy bằng đôi mắt. Thế giới còn có thể được lắng nghe, chạm vào, cảm nhận và lưu giữ bằng những cách rất riêng trong trái tim mỗi người."
+    }
+  ],
+  "mission": [
+    {
+      "type": "h2",
+      "text": "Sứ mệnh"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho hướng đến mục tiêu góp phần xây dựng một môi trường du lịch dễ tiếp cận và bình đẳng hơn cho người khiếm thị, bao gồm người mù và người nhìn kém. Chúng tôi tin rằng mọi người đều có quyền khám phá những vùng đất mới, trải nghiệm những điều thú vị và tận hưởng vẻ đẹp của cuộc sống theo cách riêng của mình."
+    },
+    {
+      "type": "p",
+      "text": "Để hiện thực hóa mong muốn ấy, WayEcho lựa chọn bắt đầu từ những việc nhỏ, thiết thực và phù hợp với khả năng hiện tại của dự án."
+    },
+    {
+      "type": "bold",
+      "text": "Trao quyền chủ động cho người trải nghiệm."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi mong muốn người khiếm thị có thêm cơ hội tự tìm hiểu, cân nhắc và đưa ra quyết định cho chuyến đi của mình mà không phải phụ thuộc hoàn toàn vào người khác. Khi thông tin được cung cấp đầy đủ, minh bạch và dễ tiếp cận, mỗi người sẽ có thêm cơ sở để chủ động lựa chọn điểm đến, chuẩn bị hành trình và tận hưởng trải nghiệm theo mong muốn. Sự hỗ trợ từ cộng đồng luôn có ý nghĩa, nhưng quyền lựa chọn và quyết định vẫn thuộc về chính người trải nghiệm."
+    },
+    {
+      "type": "bold",
+      "text": "Mở rộng cách cảm nhận thế giới bằng nhiều giác quan."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi mong muốn góp phần mở ra những cách khám phá mới, nơi vẻ đẹp của một vùng đất không chỉ được cảm nhận qua những gì mắt nhìn thấy, mà còn qua âm thanh, hương vị, xúc giác, những câu chuyện văn hóa và sự kết nối giữa con người với con người. Bởi mỗi điểm đến đều có những giá trị riêng mà bất kỳ ai cũng xứng đáng được trải nghiệm."
+    },
+    {
+      "type": "bold",
+      "text": "Đặt sự trung thực và tin cậy làm nền tảng."
+    },
+    {
+      "type": "p",
+      "text": "Đối với người khiếm thị, một thông tin thiếu chính xác về lối đi, không gian hay điều kiện tiếp cận có thể ảnh hưởng trực tiếp đến sự an toàn và toàn bộ kế hoạch của chuyến đi. Vì vậy, WayEcho đề cao tính minh bạch trong việc cung cấp thông tin, phân biệt rõ những nội dung đã được kiểm chứng với những dữ liệu mới chỉ mang tính minh họa. Chúng tôi tin rằng việc thẳng thắn thừa nhận những điều chưa biết luôn có giá trị hơn việc đưa ra những lời hứa chưa thể thực hiện."
+    },
+    {
+      "type": "bold",
+      "text": "Kết nối và lan tỏa một cộng đồng du lịch hòa nhập."
+    },
+    {
+      "type": "p",
+      "text": "Một môi trường du lịch thân thiện không thể được tạo nên bởi nỗ lực của riêng một cá nhân hay một nhóm nhỏ. Đó cần là sự chung tay của người khiếm thị, các tổ chức xã hội, hướng dẫn viên, tình nguyện viên và những cơ sở kinh doanh dịch vụ. WayEcho mong muốn trở thành cầu nối để các bên có thể chia sẻ thông tin, thấu hiểu nhu cầu của nhau và cùng góp phần xây dựng những trải nghiệm du lịch cởi mở, bình đẳng hơn."
+    },
+    {
+      "type": "h2",
+      "text": "Tầm nhìn"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho hướng đến một tương lai mà khả năng tiếp cận trở thành một phần tự nhiên trong chất lượng của mỗi điểm đến, thay vì chỉ được xem là một tiện ích bổ sung. Chúng tôi tin rằng một địa điểm đáng khám phá không chỉ bởi cảnh quan đẹp, kiến trúc độc đáo hay giá trị văn hóa đặc sắc, mà còn bởi cách nơi đó chào đón và tạo điều kiện để mọi người cùng trải nghiệm."
+    },
+    {
+      "type": "p",
+      "text": "Từ góc nhìn của một nhóm sinh viên đang từng bước hiện thực hóa ý tưởng, chúng tôi hình dung hành trình phát triển của WayEcho qua ba định hướng:"
+    },
+    {
+      "type": "bold",
+      "text": "Trước mắt: Bắt đầu từ Phố Cổ Hà Nội."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi mong muốn hoàn thiện bản mô phỏng, từng bước thử nghiệm với người dùng và cải thiện cách cung cấp thông tin về các điểm đến. Mục tiêu đầu tiên là học cách mô tả một con phố, một không gian hay một địa điểm sao cho người dùng có thể hình dung rõ hơn về nơi mình sắp đến và chủ động chuẩn bị cho hành trình."
+    },
+    {
+      "type": "bold",
+      "text": "Tiếp theo: Lắng nghe, khảo sát và kiểm chứng."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi hướng đến việc kết nối với cộng đồng người khiếm thị và các tổ chức liên quan để lắng nghe nhu cầu thực tế, đồng thời tiến hành khảo sát trực tiếp tại các điểm đến. Trên cơ sở đó, WayEcho mong muốn xây dựng bộ tiêu chí đánh giá khả năng tiếp cận rõ ràng, nhất quán và hữu ích hơn cho người sử dụng."
+    },
+    {
+      "type": "p",
+      "text": "Song song với việc hoàn thiện nội dung, chúng tôi cũng đặt mục tiêu cải thiện khả năng tiếp cận của nền tảng theo các tiêu chuẩn quốc tế, hướng tới WCAG 2.2. Đây là định hướng phát triển trong tương lai, không phải tuyên bố rằng sản phẩm hiện đã đạt chứng nhận hay được đánh giá độc lập theo tiêu chuẩn này."
+    },
+    {
+      "type": "bold",
+      "text": "Xa hơn: Mở rộng hành trình đến nhiều vùng đất khác."
+    },
+    {
+      "type": "p",
+      "text": "Nếu mô hình ban đầu chứng minh được giá trị và nhận được sự đồng hành từ cộng đồng, chúng tôi mong muốn mở rộng WayEcho đến những địa phương khác trên khắp Việt Nam. Mỗi vùng đất đều mang trong mình những âm thanh, hương vị, nét văn hóa và câu chuyện riêng. Chúng tôi hy vọng sẽ góp phần để những giá trị ấy có thêm cơ hội đến gần hơn với người khiếm thị, đồng thời thúc đẩy một môi trường du lịch cởi mở và hòa nhập hơn."
+    },
+    {
+      "type": "h2",
+      "text": "Những giá trị chúng tôi theo đuổi"
+    },
+    {
+      "type": "p",
+      "text": "**Tôn trọng:** Chúng tôi nhìn nhận người khiếm thị là những cá nhân có nhu cầu, sở thích và quyền lựa chọn riêng. Họ không phải đối tượng của sự thương hại, mà là những người có quyền bình đẳng trong việc khám phá và tận hưởng cuộc sống."
+    },
+    {
+      "type": "p",
+      "text": "**Trung thực:** Chúng tôi coi trọng sự chính xác và minh bạch trong mọi thông tin được cung cấp. Những gì chưa được kiểm chứng cần được ghi nhận rõ ràng, thay vì đưa ra những khẳng định vượt quá khả năng thực tế."
+    },
+    {
+      "type": "p",
+      "text": "**Lắng nghe:** Chúng tôi tin rằng một sản phẩm thực sự hữu ích phải được xây dựng từ nhu cầu và trải nghiệm của người sử dụng. Vì vậy, người khiếm thị cần được tham gia vào quá trình đóng góp ý kiến, thử nghiệm và hoàn thiện dự án."
+    },
+    {
+      "type": "p",
+      "text": "**Khiêm tốn:** Là một dự án do sinh viên thực hiện, chúng tôi hiểu rằng mình vẫn còn nhiều điều cần học hỏi. Chúng tôi sẵn sàng tiếp nhận những góp ý, nhìn nhận hạn chế và cải thiện từng bước thay vì vội vàng đưa ra những cam kết lớn."
+    },
+    {
+      "type": "p",
+      "text": "**Chung tay:** Một môi trường du lịch hòa nhập cần có sự đóng góp của cả cộng đồng. Chúng tôi mong muốn kết nối những cá nhân và tổ chức cùng chung mối quan tâm để tạo nên những thay đổi thiết thực và bền vững."
+    },
+    {
+      "type": "h2",
+      "text": "Thông điệp cốt lõi"
+    },
+    {
+      "type": "p",
+      "text": "WayEcho tin rằng mỗi người đều xứng đáng được khám phá, cảm nhận và tận hưởng vẻ đẹp của cuộc sống, dù họ nhìn thế giới bằng cách nào."
+    },
+    {
+      "type": "p",
+      "text": "Chúng tôi không thể thay thế đôi mắt, nhưng mong muốn góp phần mở ra những cách thức mới để mỗi người cảm nhận thế giới bằng chính những giác quan và trải nghiệm của mình. Chúng tôi cũng hiểu rằng không thể xóa bỏ mọi rào cản chỉ trong một sớm một chiều. Nhưng bằng những thông tin đáng tin cậy, những lời mô tả chu đáo và sự đồng hành chân thành, chúng tôi tin rằng có thể bắt đầu tạo nên những thay đổi tích cực."
+    },
+    {
+      "type": "bold",
+      "text": "WAYECHO – Feel the world beyond sight."
+    },
+    {
+      "type": "bold",
+      "text": "Cảm nhận thế giới vượt ngoài tầm nhìn."
+    }
+  ]
+}

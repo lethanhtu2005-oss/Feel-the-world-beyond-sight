@@ -1,0 +1,48 @@
+name: fetch-commons-photos
+
+# Tải ảnh thật từ Wikimedia Commons (runner của GitHub có internet), đổi WebP, rồi commit lại nhánh này.
+# Chạy tay: Actions -> fetch-commons-photos -> Run workflow. Cũng tự chạy khi bản đồ ảnh hoặc script đổi.
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Tải lại tất cả (bỏ qua ảnh đã có)"
+        type: boolean
+        default: false
+  push:
+    branches: [images/commons-photos]
+    paths:
+      - scripts/commons-photo-map.json
+      - scripts/fetch-commons-photos.mjs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-commons-photos-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Cài sharp (không ghi vào package.json)
+        run: npm i --no-save --no-package-lock sharp
+      - name: Tải và tối ưu ảnh
+        run: node scripts/fetch-commons-photos.mjs ${{ (inputs.force || github.event_name == 'push') && '--force' || '' }}
+      - name: Commit kết quả
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A public/assets/images/destinations data/destinationPhotos.js IMAGE_REPORT_COMMONS.md
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi."
+          else
+            git commit -m "chore(images): cập nhật ảnh thật từ Wikimedia Commons"
+            git push
+          fi

@@ -1,0 +1,269 @@
+{
+  "_ghi_chu": "Bản đồ slug điểm đến -> cách tìm ảnh thật trên Wikimedia Commons. 'pinned' là file đã được repo này gắn với địa điểm (data/photoCredits.js, data/verifiedPhotoManifest.json, data/destinations.js). Mục còn lại tìm theo 'queries' và chỉ nhận ảnh có TÊN FILE hoặc DANH MỤC chứa một trong 'must' (không dấu, không phân biệt hoa thường). Không khớp thì bỏ trống, không thay bằng ảnh gần giống. 'must' bắt đầu bằng '=' được so khớp CÓ DẤU với tên file. 'needContext' yêu cầu thêm tên file/danh mục thuộc Hà Nội. Chỉ khớp qua danh mục thì KHÔNG đủ.",
+  "places": {
+    "nha-co-87-ma-may": {
+      "name": "Nhà cổ 87 Mã Mây",
+      "pinned": "Maison longue traditionnelle (1).jpg",
+      "must": [
+        "maison longue",
+        "ma may",
+        "87 ma may"
+      ]
+    },
+    "dinh-kim-ngan": {
+      "name": "Đình Kim Ngân",
+      "queries": [
+        "Đình Kim Ngân",
+        "Kim Ngan communal house Hanoi",
+        "Dinh Kim Ngan Hang Bac"
+      ],
+      "must": [
+        "kim ngan"
+      ]
+    },
+    "den-bach-ma": {
+      "name": "Đền Bạch Mã",
+      "queries": [
+        "Đền Bạch Mã",
+        "Bach Ma temple Hanoi",
+        "Bạch Mã Temple"
+      ],
+      "must": [
+        "bach ma"
+      ]
+    },
+    "tt-50-dao-duy-tu": {
+      "name": "Trung tâm Giao lưu Văn hóa Phố cổ (50 Đào Duy Từ)",
+      "queries": [
+        "50 Đào Duy Từ",
+        "Old Quarter Cultural Exchange Center Hanoi",
+        "Dao Duy Tu street Hanoi"
+      ],
+      "must": [
+        "50 dao duy tu",
+        "cultural exchange"
+      ]
+    },
+    "tt-22-hang-buom": {
+      "name": "Trung tâm Nghệ thuật 22 Hàng Buồm (Hội quán Quảng Đông)",
+      "queries": [
+        "Hội quán Quảng Đông 22 Hàng Buồm",
+        "Quang Dong assembly hall Hang Buom",
+        "22 Hàng Buồm"
+      ],
+      "must": [
+        "hang buom",
+        "quang dong",
+        "22 hang"
+      ]
+    },
+    "dinh-dong-lac": {
+      "name": "Đình Đồng Lạc",
+      "queries": [
+        "Đình Đồng Lạc",
+        "Dong Lac communal house Hanoi"
+      ],
+      "must": [
+        "=đình đồng lạc",
+        "dong lac communal",
+        "dinh dong lac"
+      ],
+      "needContext": true
+    },
+    "dinh-thanh-ha": {
+      "name": "Đình Thanh Hà",
+      "queries": [
+        "Đình Thanh Hà Hà Nội",
+        "Thanh Ha communal house Hanoi"
+      ],
+      "must": [
+        "=đình thanh hà",
+        "thanh ha communal",
+        "thanh ha temple",
+        "dinh thanh ha"
+      ],
+      "needContext": true
+    },
+    "den-quan-de": {
+      "name": "Đền Quan Đế",
+      "queries": [
+        "Đền Quan Đế Hàng Buồm",
+        "Quan De temple Hanoi",
+        "Quan Công temple Hang Buom"
+      ],
+      "must": [
+        "quan de",
+        "quan cong",
+        "quan de temple"
+      ]
+    },
+    "o-quan-chuong": {
+      "name": "Cửa Ô Quan Chưởng",
+      "pinned": "Quan-chuong-hanoi.jpg",
+      "must": [
+        "quan chuong",
+        "quan-chuong"
+      ]
+    },
+    "cho-dong-xuan": {
+      "name": "Chợ Đồng Xuân",
+      "pinned": "Dong Xuan market.jpg",
+      "must": [
+        "dong xuan"
+      ]
+    },
+    "pho-hang-bac": {
+      "name": "Phố Hàng Bạc",
+      "pinned": "Hàng Bạc.jpg",
+      "must": [
+        "hang bac"
+      ]
+    },
+    "pho-hang-ma": {
+      "name": "Phố Hàng Mã",
+      "pinned": "Phố Hàng Mã, Hà Nội 001.JPG",
+      "must": [
+        "hang ma"
+      ]
+    },
+    "pho-hang-dao": {
+      "name": "Phố Hàng Đào",
+      "queries": [
+        "Phố Hàng Đào",
+        "Hang Dao street Hanoi",
+        "Hàng Đào Hà Nội"
+      ],
+      "must": [
+        "hang dao"
+      ],
+      "needContext": true
+    },
+    "pho-hang-ngang": {
+      "name": "Phố Hàng Ngang",
+      "queries": [
+        "Phố Hàng Ngang",
+        "Hang Ngang street Hanoi",
+        "48 Hàng Ngang"
+      ],
+      "must": [
+        "hang ngang"
+      ],
+      "needContext": true
+    },
+    "pho-hang-thiec": {
+      "name": "Phố Hàng Thiếc",
+      "queries": [
+        "Phố Hàng Thiếc",
+        "Hang Thiec street Hanoi",
+        "Hàng Thiếc tinsmith Hanoi"
+      ],
+      "must": [
+        "hang thiec"
+      ],
+      "needContext": true
+    },
+    "pho-hang-quat": {
+      "name": "Phố Hàng Quạt",
+      "queries": [
+        "Phố Hàng Quạt",
+        "Hang Quat street Hanoi"
+      ],
+      "must": [
+        "hang quat"
+      ],
+      "needContext": true
+    },
+    "pho-lan-ong": {
+      "name": "Phố Lãn Ông",
+      "queries": [
+        "Phố Lãn Ông",
+        "Lan Ong street Hanoi",
+        "Lãn Ông herbal medicine street Hanoi"
+      ],
+      "must": [
+        "lan ong"
+      ],
+      "needContext": true
+    },
+    "pho-ma-may": {
+      "name": "Phố Mã Mây",
+      "queries": [
+        "Phố Mã Mây",
+        "Ma May street Hanoi"
+      ],
+      "must": [
+        "ma may"
+      ],
+      "needContext": true
+    },
+    "pho-ta-hien": {
+      "name": "Tuyến phố Tạ Hiện",
+      "pinned": "Phố Tạ Hiện - NKS.jpg",
+      "must": [
+        "ta hien"
+      ]
+    },
+    "bich-hoa-phung-hung": {
+      "name": "Không gian Nghệ thuật Phùng Hưng",
+      "queries": [
+        "Phùng Hưng mural Hanoi",
+        "Phung Hung street Hanoi mural",
+        "Phùng Hưng bích họa"
+      ],
+      "must": [
+        "phung hung"
+      ]
+    },
+    "ho-guom": {
+      "name": "Hồ Hoàn Kiếm & Cầu Thê Húc",
+      "pinned": "Huc Bridge.jpg",
+      "must": [
+        "huc bridge"
+      ]
+    },
+    "pho-co": {
+      "name": "Khu Phố cổ Hà Nội",
+      "pinned": "Vietnam hanoi old quarter.jpg",
+      "must": [
+        "old quarter"
+      ]
+    },
+    "mua-roi-thang-long": {
+      "name": "Nhà hát Múa rối Thăng Long",
+      "pinned": "Thang Long Water Puppet Theatre.jpg",
+      "must": [
+        "water puppet"
+      ]
+    },
+    "van-mieu": {
+      "name": "Văn Miếu – Quốc Tử Giám",
+      "pinned": "Temple of Literature, Hanoi by Xiquinho Silva 02.jpg",
+      "must": [
+        "temple of literature"
+      ]
+    },
+    "hoang-thanh-thang-long": {
+      "name": "Hoàng thành Thăng Long",
+      "queries": [
+        "Hoàng thành Thăng Long",
+        "Imperial Citadel of Thăng Long Hanoi",
+        "Doan Mon gate Hanoi citadel",
+        "Thang Long Citadel Hanoi"
+      ],
+      "must": [
+        "thang long",
+        "doan mon",
+        "citadel"
+      ]
+    }
+  },
+  "licenseAllow": [
+    "CC0",
+    "Public domain",
+    "PD",
+    "CC BY",
+    "CC BY-SA"
+  ],
+  "titleExclude": "map|plan|logo|stamp|coin|poster|banner|diagram|flag|\\.svg|\\.pdf|\\.ogg|\\.webm|\\.tif|\\b1[0-8]\\d\\d\\b|\\b19[0-4]\\d\\s?s?\\b|pousse|ferblantier|panorama|aerial|night sky|screenshot|drawing|painting|artisan|nghe nhan|portrait|ban ve|tranh|truyen than|\\bA\\d{4}\\b",
+  "placeContext": "hanoi|ha noi|hoan kiem|old quarter|pho co"
+}
