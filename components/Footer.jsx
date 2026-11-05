@@ -45,6 +45,9 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li>
+                  <Link className={footerLink} href="/admin">Cổng Quản trị hệ thống</Link>
+                </li>
+                <li>
                   <Link className={footerLink} href="/partners/cooperate">
                     Hợp tác cùng WayEcho
                   </Link>
